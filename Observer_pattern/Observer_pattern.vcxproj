@@ -24,6 +24,7 @@
     <ProjectGuid>{f4e4aef3-d14b-4794-a426-c576c2d760a9}</ProjectGuid>
     <RootNamespace>Observerpattern</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>04.Observer_pattern</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

@@ -4,6 +4,8 @@
 
 int main()
 {
-	Spawner* ghostSpawner = new SpawnerFor<Ghost>();
+	Monster* ghost = new Ghost(20, 10);
+	Spawner* ghostSpawner = new Spawner(ghost);
+
 	return 0;
 }

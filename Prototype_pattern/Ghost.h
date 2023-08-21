@@ -3,7 +3,8 @@
 class Ghost : public Monster
 {
 private:
-	int health;
+	int maxHealth;
+	int currentHealth;
 	int speed;
 
 public:

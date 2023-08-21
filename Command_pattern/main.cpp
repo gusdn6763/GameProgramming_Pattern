@@ -1,4 +1,5 @@
 #include <iostream>
+#include <windows.h>
 #include "Command.h"
 #include "InputHandler.h"
 #include "Warrior.h"
@@ -23,7 +24,8 @@ int main()
 
     while (true)
     {
-        std::cout << "공격키 : a 점프키 : j" << endl;
+        printf("공격키 : %c 점프키 : %c 이동키 : 화살표", input->FindKey(new AttackCommand()), input->FindKey(new JumpCommand()));
+        system("cls");
         char key;
         std::cin >> key;
         //input->ChangeKey('a', 'j');

@@ -11,6 +11,15 @@ void InputHandler::Init()
     keyToCommandMap['j'] = std::make_unique<JumpCommand>();
 }
 
+char InputHandler::FindKey(Command* command)
+{
+    for (const auto& pair : keyToCommandMap) 
+        if (pair.second.get() == command) 
+            return pair.first;
+
+    return '\0';
+}
+
 Command* InputHandler::HandleInput(char key)
 {
     auto it = keyToCommandMap.find(key);

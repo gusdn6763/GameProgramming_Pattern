@@ -13,5 +13,6 @@ public:
 
     void Init();
     Command* HandleInput(char key);
+    char FindKey(Command* command);
     void ChangeKey(char currentKey, char newKey);
 };
