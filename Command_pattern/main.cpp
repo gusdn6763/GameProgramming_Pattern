@@ -5,6 +5,11 @@
 #include "Warrior.h"
 #include "Mage.h"
 
+/*
+명령패턴
+명령을 객체화 함으로써 유연성과 확장성을 높임.
+
+*/
 int main()
 {
     int nSelect = 0;

@@ -3,6 +3,11 @@
 #include <Windows.h>
 
 /*
+이중 버퍼 패턴
+한 스테이지에 한번만 행동하는것처럼 보여야할경우
+*/
+
+/*
 harry가 맞을시 baldy을 때린다.
 baldy가 맞을시 chump를 때린다.
 chump가 맞을시 harry를 때린다.

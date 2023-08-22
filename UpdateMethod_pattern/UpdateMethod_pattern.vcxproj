@@ -24,7 +24,7 @@
     <ProjectGuid>{e5ebc742-bebb-44b8-a666-6c70db68550a}</ProjectGuid>
     <RootNamespace>UpdateMethodpattern</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>10 .UpdateMethod_pattern</ProjectName>
+    <ProjectName>10.UpdateMethod_pattern</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

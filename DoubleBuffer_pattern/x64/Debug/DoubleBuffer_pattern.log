@@ -1,4 +1,4 @@
-﻿14:05:41.467     0>$(MSBuildExtensionsPath)에 사용 중인 검색 경로는 C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild;$(MSBuildProgramFiles32)\MSBuild입니다.
+﻿15:29:50.854     0>$(MSBuildExtensionsPath)에 사용 중인 검색 경로는 C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild;$(MSBuildProgramFiles32)\MSBuild입니다.
                    확장 경로 C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild을(를) 사용하여 C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\$(MSBuildToolsVersion)\Microsoft.Common.props을(를) 가져옵니다.
                    속성 재할당: $(MSBuildProjectExtensionsPath)=C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Microsoft.Common.props(57,5)의 "C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\obj\"(이전 값: "obj\")
                    $(MSBuildExtensionsPath)에 사용 중인 검색 경로는 C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild;$(MSBuildProgramFiles32)\MSBuild입니다.
@@ -950,16 +950,19 @@
                    "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.MetaGen.targets" 프로젝트의 "ComputeMetaGenInputs" 대상을 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets" 프로젝트의 "ComputeMetaGenInputs" 대상으로 재정의하고 있습니다.
                    "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" 프로젝트의 "GetNativeManifest" 대상을 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets" 프로젝트의 "GetNativeManifest" 대상으로 재정의하고 있습니다.
                    "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" 프로젝트의 "GetTargetPathWithTargetPlatformMoniker" 대상을 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.Cpp.DesignTime.targets" 프로젝트의 "GetTargetPathWithTargetPlatformMoniker" 대상으로 재정의하고 있습니다.
-빌드 시작: 2023-08-11 오후 2:05:41
+빌드 시작: 2023-08-22 오후 3:29:50
 빌드 시작 환경:
                    ALLUSERSPROFILE = C:\ProgramData
                    APPDATA = C:\Users\gusdn6763\AppData\Roaming
                    CommonProgramFiles = C:\Program Files (x86)\Common Files
                    CommonProgramFiles(x86) = C:\Program Files (x86)\Common Files
                    CommonProgramW6432 = C:\Program Files\Common Files
+                   COMPLUS_InstallRoot = 
+                   COMPLUS_Version = 
                    COMPUTERNAME = DESKTOP-EGDIMHR
                    ComSpec = C:\Windows\system32\cmd.exe
                    DriverData = C:\Windows\System32\Drivers\DriverData
+                   ForceIdentityAuthenticationType = Embedded
                    FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
                    FPS_BROWSER_USER_PROFILE_STRING = Default
                    HOMEDRIVE = C:
@@ -988,7 +991,8 @@
                    PUBLIC = C:\Users\Public
                    QtMsBuild = C:\Users\gusdn6763\AppData\Local\QtMsBuild
                    Qt_INCLUDEPATH_ = C:\Qt\5.15.2\msvc2019
-                   ServiceHubLogSessionKey = 05ECAF9B
+                   ServiceHubLogSessionKey = F1DB4C92
+                   SignInWithHomeTenantOnly = False
                    SystemDrive = C:
                    SystemRoot = C:\Windows
                    TEMP = C:\Users\GUSDN6~1\AppData\Local\Temp
@@ -1009,8 +1013,8 @@
                    windir = C:\Windows
                    __COMPAT_LAYER = RunAsAdmin
 
-로깅의 세부 정보 표시가 Diagnostic(으)로 설정되었습니다.14:05:41.610     1>2 노드의 "C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트(Build 대상)입니다.
-14:05:41.610     1>초기 속성:
+로깅의 세부 정보 표시가 Diagnostic(으)로 설정되었습니다.15:29:50.893     1>2 노드의 "C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트(Build 대상)입니다.
+15:29:50.893     1>초기 속성:
                    __COMPAT_LAYER = RunAsAdmin
                    _AfterCompileWinFXInternalDependsOn = 
                            PrepareResourcesForSatelliteAssemblies;
@@ -2284,7 +2288,7 @@
                    SDKReferenceDirectoryRoot = C:\Users\gusdn6763\AppData\Local\Microsoft SDKs;C:\Program Files (x86)\Microsoft SDKs
                    SDKReferenceRegistryRoot = Software\Microsoft\Microsoft SDKs
                    SDKVersion = 10.0
-                   ServiceHubLogSessionKey = 05ECAF9B
+                   ServiceHubLogSessionKey = F1DB4C92
                    SetBuildDefaultEnvironmentVariablesDependsOn = 
                          AddExternalIncludDirectoriesToPaths;
                          
@@ -2529,8 +2533,8 @@
                    VsInstallRoot = C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional
                    VSLANG = 1042
                    VSSKUEDITION = Professional
-                   VSTEL_CurrentSolutionBuildID = 3808193160
-                   VSTEL_SolutionSessionID = {6B925686-A5E3-4D45-88D1-169C7E174FDC}
+                   VSTEL_CurrentSolutionBuildID = 468676011
+                   VSTEL_SolutionSessionID = {3DE90B51-23FE-470A-9843-90072829E7EE}
                    VSVersion = $(VisualStudioVersion)
                    WebBrowserDebuggerDebuggerType = Auto
                    WebReference_EnableLegacyEventingModel = false
@@ -2591,9 +2595,9 @@
                    XamlTemporaryAssemblyName = DoubleBuffer_pattern
                    YieldDuringToolExecution = true
 
-14:05:41.610     1>도구 버전 "Current"(을)를 사용하여 빌드하고 있습니다.
+15:29:50.893     1>도구 버전 "Current"(을)를 사용하여 빌드하고 있습니다.
                    조건이 잘못되어 "EnableIntermediateOutputPathMismatchWarning" 대상을 건너뜁니다. ('$(RestoreProjectStyle)' == 'PackageReference')이(가) ('' == 'PackageReference')(으)로 확인되었습니다.
-14:05:41.611     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" 파일에 있는 "_CheckForInvalidConfigurationAndPlatform: (대상 ID:2)" 대상("SetTelemetryEnvironmentVariables" 대상이 종속됨):
+15:29:50.894     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" 파일에 있는 "_CheckForInvalidConfigurationAndPlatform: (대상 ID:2)" 대상("SetTelemetryEnvironmentVariables" 대상이 종속됨):
                    설정 속성: _InvalidConfigurationMessageText=The BaseOutputPath/OutputPath property is not set for project 'DoubleBuffer_pattern.vcxproj'.  Please check to make sure that you have specified a valid combination of Configuration and Platform for this project.  Configuration='Debug'  Platform='x64'.
                    설정 속성: _InvalidConfigurationMessageText=The BaseOutputPath/OutputPath property is not set for project 'DoubleBuffer_pattern.vcxproj'.  Please check to make sure that you have specified a valid combination of Configuration and Platform for this project.  Configuration='Debug'  Platform='x64'.  This error may also appear if some other project is trying to follow a project-to-project reference to this project, this project has been unloaded or is not included in the solution, and the referencing project does not build using the same or an equivalent Configuration or Platform.
                    조건이 잘못되어 "Error" 작업을 건너뜁니다. ( '$(_InvalidConfigurationError)' == 'true' )이(가) ( '' == 'true' )(으)로 확인되었습니다.
@@ -2614,21 +2618,21 @@
                    조건이 잘못되어 "Error" 작업을 건너뜁니다. ('$(BaseIntermediateOutputPath)' != '' and !HasTrailingSlash('$(BaseIntermediateOutputPath)'))이(가) ('obj\' != '' and !HasTrailingSlash('obj\'))(으)로 확인되었습니다.
                    조건이 잘못되어 "Error" 작업을 건너뜁니다. ( '$(_InitialMSBuildProjectExtensionsPath)' != '' And '$(MSBuildProjectExtensionsPath)' != '$(_InitialMSBuildProjectExtensionsPath)' )이(가) ( 'C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\obj\' != '' And 'C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\obj\' != 'C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\obj\' )(으)로 확인되었습니다.
                    조건이 잘못되어 "Warning" 작업을 건너뜁니다. ( '$(EnableBaseIntermediateOutputPathMismatchWarning)' == 'true' And '$(_InitialBaseIntermediateOutputPath)' != '$(BaseIntermediateOutputPath)' And '$(BaseIntermediateOutputPath)' != '$(MSBuildProjectExtensionsPath)' )이(가) ( '' == 'true' And 'obj\' != 'obj\' And 'obj\' != 'C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\obj\' )(으)로 확인되었습니다.
-14:05:41.628     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "_CheckForInvalidConfigurationAndPlatform" 대상을 빌드했습니다.: (대상 ID:2)
+15:29:50.895     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "_CheckForInvalidConfigurationAndPlatform" 대상을 빌드했습니다.: (대상 ID:2)
                    "_CheckForInvalidConfigurationAndPlatform" 대상을 건너뜁니다. 이전에 빌드되었습니다.
-14:05:41.629     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.Cpp.DesignTime.targets" 파일에 있는 "SetTelemetryEnvironmentVariables: (대상 ID:3)" 대상("Build" 대상이 종속됨):
+15:29:50.895     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.Cpp.DesignTime.targets" 파일에 있는 "SetTelemetryEnvironmentVariables: (대상 ID:3)" 대상("Build" 대상이 종속됨):
                    "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.Build.CppTasks.Common.dll" 어셈블리에서 "SetEnv" 작업을 사용합니다.
                    "SetEnv" 작업(작업 ID:4)
                      작업 매개 변수:Prefix=False(작업 ID:4)
-                     작업 매개 변수:Value={6B925686-A5E3-4D45-88D1-169C7E174FDC}(작업 ID:4)
+                     작업 매개 변수:Value={3DE90B51-23FE-470A-9843-90072829E7EE}(작업 ID:4)
                      작업 매개 변수:Name=VSTEL_SolutionSessionID(작업 ID:4)
-                     VSTEL_SolutionSessionID={6B925686-A5E3-4D45-88D1-169C7E174FDC}(작업 ID:4)
+                     VSTEL_SolutionSessionID={3DE90B51-23FE-470A-9843-90072829E7EE}(작업 ID:4)
                    "SetEnv" 작업을 실행했습니다.(작업 ID:4)
                    "SetEnv" 작업(작업 ID:5)
                      작업 매개 변수:Prefix=False(작업 ID:5)
-                     작업 매개 변수:Value=3808193160(작업 ID:5)
+                     작업 매개 변수:Value=468676011(작업 ID:5)
                      작업 매개 변수:Name=VSTEL_CurrentSolutionBuildID(작업 ID:5)
-                     VSTEL_CurrentSolutionBuildID=3808193160(작업 ID:5)
+                     VSTEL_CurrentSolutionBuildID=468676011(작업 ID:5)
                    "SetEnv" 작업을 실행했습니다.(작업 ID:5)
                    "SetEnv" 작업(작업 ID:6)
                      작업 매개 변수:Prefix=False(작업 ID:6)
@@ -2637,8 +2641,8 @@
                      VSTEL_ProjectID={4d3e9a93-a3be-42c8-a837-8697cf57ebaf}(작업 ID:6)
                      출력 속성: VSTEL_ProjectID={4d3e9a93-a3be-42c8-a837-8697cf57ebaf}(작업 ID:6)
                    "SetEnv" 작업을 실행했습니다.(작업 ID:6)
-14:05:41.636     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "SetTelemetryEnvironmentVariables" 대상을 빌드했습니다.: (대상 ID:3)
-14:05:41.636     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.BuildSteps.Targets" 파일에 있는 "_PrepareForBuild: (대상 ID:4)" 대상("Build" 대상이 종속됨):
+15:29:50.896     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "SetTelemetryEnvironmentVariables" 대상을 빌드했습니다.: (대상 ID:3)
+15:29:50.896     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.BuildSteps.Targets" 파일에 있는 "_PrepareForBuild: (대상 ID:4)" 대상("Build" 대상이 종속됨):
                    설정 속성: BuildType=Build
                    설정 속성: _BuildActionType=Build
                    조건이 잘못되어 "CreateItem" 작업을 건너뜁니다. ('%(CustomBuild.IncludeFileToTool)'!='')이(가) (''!='')(으)로 확인되었습니다.
@@ -2646,17 +2650,17 @@
                        CustomBuildStep=
                            08.DoubleBuffer_pattern
                                    Message=Performing Custom Build Step
-14:05:41.637     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "_PrepareForBuild" 대상을 빌드했습니다.: (대상 ID:4)
-14:05:41.637     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" 파일에 있는 "_PrepareForReferenceResolution: (대상 ID:5)" 대상("ResolveReferences" 대상이 종속됨):
+15:29:50.896     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "_PrepareForBuild" 대상을 빌드했습니다.: (대상 ID:4)
+15:29:50.896     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" 파일에 있는 "_PrepareForReferenceResolution: (대상 ID:5)" 대상("ResolveReferences" 대상이 종속됨):
                    설정 속성: TargetFrameworkMoniker=
                    설정 속성: _FindDependencies=false
                    설정 속성: AdditionalExplicitAssemblyReferences=
                    조건이 잘못되어 "Message" 작업을 건너뜁니다. ('$(_REFERENCE_DEBUG)'=='true')이(가) (''=='true')(으)로 확인되었습니다.
-14:05:41.638     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "_PrepareForReferenceResolution" 대상을 빌드했습니다.: (대상 ID:5)
+15:29:50.896     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "_PrepareForReferenceResolution" 대상을 빌드했습니다.: (대상 ID:5)
                    조건이 잘못되어 "ComputeCrtSDKReference" 대상을 건너뜁니다. ('@(ClCompile)'!='' and '$(WindowsAppContainer)'=='true' and '$(UseCrtSDKReference)' != 'false')이(가) ('main.cpp'!='' and 'false'=='true' and '' != 'false')(으)로 확인되었습니다.
-14:05:41.638     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" 파일에 있는 "BeforeResolveReferences: (대상 ID:6)" 대상("ResolveReferences" 대상이 종속됨):
-14:05:41.638     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "BeforeResolveReferences" 대상을 빌드했습니다.: (대상 ID:6)
-14:05:41.638     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" 파일에 있는 "AssignProjectConfiguration: (대상 ID:7)" 대상("ResolveReferences" 대상이 종속됨):
+15:29:50.896     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" 파일에 있는 "BeforeResolveReferences: (대상 ID:6)" 대상("ResolveReferences" 대상이 종속됨):
+15:29:50.896     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "BeforeResolveReferences" 대상을 빌드했습니다.: (대상 ID:6)
+15:29:50.896     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" 파일에 있는 "AssignProjectConfiguration: (대상 ID:7)" 대상("ResolveReferences" 대상이 종속됨):
                    설정 속성: ShouldUnsetParentConfigurationAndPlatform=true
                    "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" 어셈블리에서 "AssignProjectConfiguration" 작업을 사용합니다.
                    "AssignProjectConfiguration" 작업(작업 ID:7)
@@ -2679,14 +2683,14 @@
                      작업 매개 변수:OnlyReferenceAndBuildProjectsEnabledInSolutionConfiguration=True(작업 ID:7)
                      작업 매개 변수:CurrentProjectConfiguration=Debug(작업 ID:7)
                    "AssignProjectConfiguration" 작업을 실행했습니다.(작업 ID:7)
-14:05:41.640     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "AssignProjectConfiguration" 대상을 빌드했습니다.: (대상 ID:7)
+15:29:50.897     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "AssignProjectConfiguration" 대상을 빌드했습니다.: (대상 ID:7)
                    "AssignProjectConfiguration" 대상을 건너뜁니다. 이전에 빌드되었습니다.
-14:05:41.640     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" 파일에 있는 "_SplitProjectReferencesByFileExistence: (대상 ID:8)" 대상("PrepareProjectReferences" 대상이 종속됨):
+15:29:50.897     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" 파일에 있는 "_SplitProjectReferencesByFileExistence: (대상 ID:8)" 대상("PrepareProjectReferences" 대상이 종속됨):
                    조건이 잘못되어 "ResolveNonMSBuildProjectOutput" 작업을 건너뜁니다. ('$(BuildingInsideVisualStudio)'=='true' and '@(ProjectReferenceWithConfiguration)'!='')이(가) ('true'=='true' and ''!='')(으)로 확인되었습니다.
-14:05:41.640     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "_SplitProjectReferencesByFileExistence" 대상을 빌드했습니다.: (대상 ID:8)
-14:05:41.640     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" 파일에 있는 "_AddOutputPathToGlobalPropertiesToRemove: (대상 ID:9)" 대상("_GetProjectReferenceTargetFrameworkProperties" 대상이 종속됨):
-14:05:41.640     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "_AddOutputPathToGlobalPropertiesToRemove" 대상을 빌드했습니다.: (대상 ID:9)
-14:05:41.640     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" 파일에 있는 "_GetProjectReferenceTargetFrameworkProperties: (대상 ID:10)" 대상("PrepareProjectReferences" 대상이 종속됨):
+15:29:50.897     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "_SplitProjectReferencesByFileExistence" 대상을 빌드했습니다.: (대상 ID:8)
+15:29:50.897     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" 파일에 있는 "_AddOutputPathToGlobalPropertiesToRemove: (대상 ID:9)" 대상("_GetProjectReferenceTargetFrameworkProperties" 대상이 종속됨):
+15:29:50.897     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "_AddOutputPathToGlobalPropertiesToRemove" 대상을 빌드했습니다.: (대상 ID:9)
+15:29:50.897     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" 파일에 있는 "_GetProjectReferenceTargetFrameworkProperties: (대상 ID:10)" 대상("PrepareProjectReferences" 대상이 종속됨):
                    설정 속성: ReferringTargetFrameworkForProjectReferences=.NETFramework,Version=v4.0
                    "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" 어셈블리에서 "MSBuild" 작업을 사용합니다.
                    "MSBuild" 작업(작업 ID:8)
@@ -2701,22 +2705,22 @@
                    조건이 잘못되어 "GetReferenceNearestTargetFrameworkTask" 작업을 건너뜁니다. ('@(_ProjectReferenceTargetFrameworkPossibilities->Count())' != '0' and '$(ReferringTargetFrameworkForProjectReferences)' != ''
                                                                            And '$(GetReferenceNearestTargetFrameworkTaskSupportsTargetPlatformParameter)' != 'true')이(가) ('0' != '0' and '.NETFramework,Version=v4.0' != ''
                                                                            And 'true' != 'true')(으)로 확인되었습니다.
-14:05:41.641     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "_GetProjectReferenceTargetFrameworkProperties" 대상을 빌드했습니다.: (대상 ID:10)
-14:05:41.642     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" 파일에 있는 "PrepareProjectReferences: (대상 ID:11)" 대상("ResolveProjectReferences" 대상이 종속됨):
-14:05:41.642     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "PrepareProjectReferences" 대상을 빌드했습니다.: (대상 ID:11)
+15:29:50.898     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "_GetProjectReferenceTargetFrameworkProperties" 대상을 빌드했습니다.: (대상 ID:10)
+15:29:50.898     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" 파일에 있는 "PrepareProjectReferences: (대상 ID:11)" 대상("ResolveProjectReferences" 대상이 종속됨):
+15:29:50.898     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "PrepareProjectReferences" 대상을 빌드했습니다.: (대상 ID:11)
                    조건이 잘못되어 "_RemoveNameMetadataFromProjectReferenceItems" 대상을 건너뜁니다. ('@(ProjectReference)'!='')이(가) (''!='')(으)로 확인되었습니다.
-14:05:41.642     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" 파일에 있는 "ResolveProjectReferences: (대상 ID:12)" 대상("ResolveReferences" 대상이 종속됨):
+15:29:50.898     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" 파일에 있는 "ResolveProjectReferences: (대상 ID:12)" 대상("ResolveReferences" 대상이 종속됨):
                    조건이 잘못되어 "MSBuild" 작업을 건너뜁니다. ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and ('$(BuildingInsideVisualStudio)' == 'true' or '$(BuildProjectReferences)' != 'true') and '$(VisualStudioVersion)' != '10.0' and '@(_MSBuildProjectReferenceExistent)' != '')이(가) ('' == 'true' and '' != '' and ('true' == 'true' or 'true' != 'true') and '16.0' != '10.0' and '' != '')(으)로 확인되었습니다.
                    조건이 잘못되어 "MSBuild" 작업을 건너뜁니다. ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '$(BuildingInsideVisualStudio)' != 'true' and '$(BuildProjectReferences)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '')이(가) ('' == 'true' and '' != '' and 'true' != 'true' and 'true' == 'true' and '' != '')(으)로 확인되었습니다.
                    조건이 잘못되어 "MSBuild" 작업을 건너뜁니다. ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '$(BuildingProject)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '')이(가) ('' == 'true' and '' != '' and 'true' == 'true' and '' != '')(으)로 확인되었습니다.
                    조건이 잘못되어 "Warning" 작업을 건너뜁니다. ('@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceNonexistent)' != '')이(가) ('' != '' and '' != '')(으)로 확인되었습니다.
-14:05:41.656     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "ResolveProjectReferences" 대상을 빌드했습니다.: (대상 ID:12)
+15:29:50.898     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "ResolveProjectReferences" 대상을 빌드했습니다.: (대상 ID:12)
                    조건이 잘못되어 "FindInvalidProjectReferences" 대상을 건너뜁니다. ('$(FindInvalidProjectReferences)' == 'true')이(가) ('' == 'true')(으)로 확인되었습니다.
                    조건이 잘못되어 "ResolveNativeReferences" 대상을 건너뜁니다. ('@(NativeReference)'!='')이(가) (''!='')(으)로 확인되었습니다.
                    "_PrepareForReferenceResolution" 대상을 건너뜁니다. 이전에 빌드되었습니다.
                    "ResolveProjectReferences" 대상을 건너뜁니다. 이전에 빌드되었습니다.
                    조건이 잘못되어 "FindInvalidProjectReferences" 대상을 건너뜁니다. ('$(FindInvalidProjectReferences)' == 'true')이(가) ('' == 'true')(으)로 확인되었습니다.
-14:05:41.656     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\Microsoft.NETFramework.CurrentVersion.targets" 파일에 있는 "GetFrameworkPaths: (대상 ID:13)" 대상("ResolveAssemblyReferences" 대상이 종속됨):
+15:29:50.898     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\Microsoft.NETFramework.CurrentVersion.targets" 파일에 있는 "GetFrameworkPaths: (대상 ID:13)" 대상("ResolveAssemblyReferences" 대상이 종속됨):
                    추가된 항목: _TargetFramework40DirectoryItem=C:\Windows\Microsoft.NET\Framework\v4.0.30319
                    추가된 항목: _TargetFramework35DirectoryItem=C:\Windows\Microsoft.NET\Framework\v3.5
                    추가된 항목: _TargetFramework30DirectoryItem=C:\Windows\Microsoft.NET\Framework\v3.0
@@ -2726,18 +2730,18 @@
                    설정 속성: TargetFrameworkDirectory=C:\Windows\Microsoft.NET\Framework\v4.0.30319
                    설정 속성: TargetFrameworkSDKDirectory=C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\
                    추가된 항목: _TargetFrameworkSDKDirectoryItem=C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\
-14:05:41.657     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "GetFrameworkPaths" 대상을 빌드했습니다.: (대상 ID:13)
+15:29:50.898     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "GetFrameworkPaths" 대상을 빌드했습니다.: (대상 ID:13)
                    "_PrepareForReferenceResolution" 대상을 건너뜁니다. 이전에 빌드되었습니다.
                    조건이 잘못되어 "GetWinFXPath" 대상을 건너뜁니다. (('@(Page)' != '' or '@(ApplicationDefinition)' != '' or '@(Resource)' != '') and ('$(GetWinFXNativePath)' != '' or '$(GetWinFXWoWPath)' != '' ))이(가) (('' != '' or '' != '' or '' != '') and ('' != '' or '' != '' ))(으)로 확인되었습니다.
                    "GetFrameworkPaths" 대상을 건너뜁니다. 이전에 빌드되었습니다.
-14:05:41.657     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" 파일에 있는 "GetReferenceAssemblyPaths: (대상 ID:14)" 대상("ResolveAssemblyReferences" 대상이 종속됨):
+15:29:50.898     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" 파일에 있는 "GetReferenceAssemblyPaths: (대상 ID:14)" 대상("ResolveAssemblyReferences" 대상이 종속됨):
                    설정 속성: TargetFrameworkDirectory=
                    조건이 잘못되어 "GetReferenceAssemblyPaths" 작업을 건너뜁니다. ('$(TargetFrameworkMoniker)' != '' and ('$(_TargetFrameworkDirectories)' == '' or '$(_FullFrameworkReferenceAssemblyPaths)' == ''))이(가) ('' != '' and ('C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0' == '' or 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0' == ''))(으)로 확인되었습니다.
                    설정 속성: TargetFrameworkDirectory=C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0;;
                    설정 속성: TargetFrameworkDirectory=C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0;;;C:\Program Files %28x86%29\Windows Kits\10\References
                    설정 속성: RemoveAssemblyFoldersIfNoTargetFramework=true
-14:05:41.657     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "GetReferenceAssemblyPaths" 대상을 빌드했습니다.: (대상 ID:14)
-14:05:41.657     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.Cpp.Current.targets" 파일에 있는 "AddExternalIncludDirectoriesToPaths: (대상 ID:15)" 대상("SetBuildDefaultEnvironmentVariables" 대상이 종속됨):
+15:29:50.898     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "GetReferenceAssemblyPaths" 대상을 빌드했습니다.: (대상 ID:14)
+15:29:50.898     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.Cpp.Current.targets" 파일에 있는 "AddExternalIncludDirectoriesToPaths: (대상 ID:15)" 대상("SetBuildDefaultEnvironmentVariables" 대상이 종속됨):
                    추가된 항목: 
                        _ExternalIncludePathToInclude=
                            C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\include
@@ -2782,8 +2786,8 @@
                            C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\winrt
                            C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt
                            C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\Include\um
-14:05:41.658     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "AddExternalIncludDirectoriesToPaths" 대상을 빌드했습니다.: (대상 ID:15)
-14:05:41.658     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.Cpp.Current.targets" 파일에 있는 "SetBuildDefaultEnvironmentVariables: (대상 ID:16)" 대상("PrepareForBuild" 대상이 종속됨):
+15:29:50.899     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "AddExternalIncludDirectoriesToPaths" 대상을 빌드했습니다.: (대상 ID:15)
+15:29:50.899     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.Cpp.Current.targets" 파일에 있는 "SetBuildDefaultEnvironmentVariables: (대상 ID:16)" 대상("PrepareForBuild" 대상이 종속됨):
                    "SetEnv" 작업(작업 ID:9)
                      작업 매개 변수:Prefix=False(작업 ID:9)
                      작업 매개 변수:Value=C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\bin\HostX86\x64;C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86;C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\x86;;C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.8 Tools;C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\Common7\tools;C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\Common7\ide;C:\Program Files (x86)\HTML Help Workshop;;C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin;C:\Windows\Microsoft.NET\Framework\v4.0.30319\;;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Bandizip\;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\Program Files (x86)\GnuWin32\bin;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\CMake\bin;C:\Program Files\Java\jdk-20\bin;C:\msys64\mingw64\bin;C:\Users\gusdn6763\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\gusdn6763\AppData\Local\Programs\Python\Python311\;C:\Users\gusdn6763\AppData\Local\Microsoft\WindowsApps;C:\Users\gusdn6763\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\gusdn6763\.dotnet\tools;C:\Users\gusdn6763\AppData\Local\GitHubDesktop\bin;C:\Users\gusdn6763\AppData\Roaming\npm;(작업 ID:9)
@@ -2819,10 +2823,10 @@
                      EXTERNAL_INCLUDE=C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\include;;C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\atlmfc\include;;C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Auxiliary\VS\include;;C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt;;;C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um;C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared;C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\winrt;C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\Include\um;(작업 ID:13)
                      출력 속성: EXTERNAL_INCLUDE=C:\Program Files %28x86%29\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\include%3b%3bC:\Program Files %28x86%29\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\atlmfc\include%3b%3bC:\Program Files %28x86%29\Microsoft Visual Studio\2019\Professional\VC\Auxiliary\VS\include%3b%3bC:\Program Files %28x86%29\Windows Kits\10\Include\10.0.19041.0\ucrt%3b%3b%3bC:\Program Files %28x86%29\Windows Kits\10\Include\10.0.19041.0\um%3bC:\Program Files %28x86%29\Windows Kits\10\Include\10.0.19041.0\shared%3bC:\Program Files %28x86%29\Windows Kits\10\Include\10.0.19041.0\winrt%3bC:\Program Files %28x86%29\Windows Kits\10\Include\10.0.19041.0\cppwinrt%3bC:\Program Files %28x86%29\Windows Kits\NETFXSDK\4.8\Include\um%3b(작업 ID:13)
                    "SetEnv" 작업을 실행했습니다.(작업 ID:13)
-14:05:41.658     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "SetBuildDefaultEnvironmentVariables" 대상을 빌드했습니다.: (대상 ID:16)
+15:29:50.899     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "SetBuildDefaultEnvironmentVariables" 대상을 빌드했습니다.: (대상 ID:16)
                    조건이 잘못되어 "SetUserMacroEnvironmentVariables" 대상을 건너뜁니다. ('@(BuildMacro)' != '' and '$(DesignTimeBuild)' != 'true')이(가) ('' != '' and '' != 'true')(으)로 확인되었습니다.
                    "_PrepareForReferenceResolution" 대상을 건너뜁니다. 이전에 빌드되었습니다.
-14:05:41.658     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" 파일에 있는 "GetResolvedWinMD: (대상 ID:17)" 대상("PrepareForBuild" 대상이 종속됨):
+15:29:50.899     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" 파일에 있는 "GetResolvedWinMD: (대상 ID:17)" 대상("PrepareForBuild" 대상이 종속됨):
                    추가된 항목: 
                        Link=
                            tmp
@@ -2909,8 +2913,8 @@
                                    TypeLibraryResourceID=1
                                    UACExecutionLevel=AsInvoker
                                    UACUIAccess=false
-14:05:41.658     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "GetResolvedWinMD" 대상을 빌드했습니다.: (대상 ID:17)
-14:05:41.658     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.Cpp.WindowsSDK.targets" 파일에 있는 "_CheckWindowsSDKInstalled: (대상 ID:18)" 대상("PrepareForBuild" 대상이 종속됨):
+15:29:50.899     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "GetResolvedWinMD" 대상을 빌드했습니다.: (대상 ID:17)
+15:29:50.899     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.Cpp.WindowsSDK.targets" 파일에 있는 "_CheckWindowsSDKInstalled: (대상 ID:18)" 대상("PrepareForBuild" 대상이 종속됨):
                    설정 속성: WindowsSDKInstalled=false
                    설정 속성: WindowsSDK_UAP_Support=false
                    설정 속성: WindowsSDK_Desktop_Support=false
@@ -2919,11 +2923,11 @@
                    설정 속성: WindowsSDK_Desktop_Support=true
                    조건이 잘못되어 "VCMessage" 작업을 건너뜁니다. ('$(WindowsSDKInstalled)' != 'true')이(가) ('true' != 'true')(으)로 확인되었습니다.
                    조건이 잘못되어 "VCMessage" 작업을 건너뜁니다. ('$(WindowsAppContainer)' != 'true' and '$(WindowsSDK_Desktop_Support)' != true)이(가) ('false' != 'true' and 'true' != true)(으)로 확인되었습니다.
-14:05:41.659     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "_CheckWindowsSDKInstalled" 대상을 빌드했습니다.: (대상 ID:18)
+15:29:50.900     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "_CheckWindowsSDKInstalled" 대상을 빌드했습니다.: (대상 ID:18)
                    "GetFrameworkPaths" 대상을 건너뜁니다. 이전에 빌드되었습니다.
                    "GetReferenceAssemblyPaths" 대상을 건너뜁니다. 이전에 빌드되었습니다.
                    조건이 잘못되어 "AssignLinkMetadata" 대상을 건너뜁니다. ( '$(SynthesizeLinkMetadata)' == 'true' )이(가) ( '' == 'true' )(으)로 확인되었습니다.
-14:05:41.659     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VisualStudio\v16.0\CodeAnalysis\Microsoft.CodeAnalysis.targets" 파일에 있는 "SetCABuildNativeEnvironmentVariables: (대상 ID:19)" 대상("PrepareForBuild" 대상이 종속됨):
+15:29:50.900     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VisualStudio\v16.0\CodeAnalysis\Microsoft.CodeAnalysis.targets" 파일에 있는 "SetCABuildNativeEnvironmentVariables: (대상 ID:19)" 대상("PrepareForBuild" 대상이 종속됨):
                    "SetEnv" 작업(작업 ID:14)
                      작업 매개 변수:Prefix=False(작업 ID:14)
                      작업 매개 변수:Value=C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\atlmfc\include;C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\include;C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt;;C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um;C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared;C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\winrt;C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\Include\um;(작업 ID:14)
@@ -2931,8 +2935,8 @@
                      CAExcludePath=C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\atlmfc\include;C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\include;C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt;;C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um;C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared;C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\winrt;C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\Include\um;(작업 ID:14)
                    "SetEnv" 작업을 실행했습니다.(작업 ID:14)
                    조건이 잘못되어 "SetEnv" 작업을 건너뜁니다. ('$(RunMsvcAnalysis)'=='true' and '$(VCCodeAnalysisUX)'=='true')이(가) ('false'=='true' and 'true'=='true')(으)로 확인되었습니다.
-14:05:41.659     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "SetCABuildNativeEnvironmentVariables" 대상을 빌드했습니다.: (대상 ID:19)
-14:05:41.659     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" 파일에 있는 "PrepareForBuild: (대상 ID:20)" 대상("ResolveAssemblyReferences" 대상이 종속됨):
+15:29:50.900     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "SetCABuildNativeEnvironmentVariables" 대상을 빌드했습니다.: (대상 ID:19)
+15:29:50.900     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" 파일에 있는 "PrepareForBuild: (대상 ID:20)" 대상("ResolveAssemblyReferences" 대상이 종속됨):
                    설정 속성: TargetDir=C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\x64\Debug\
                    설정 속성: LocalDebuggerCommand=C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\x64\Debug\08.DoubleBuffer_pattern.exe
                    설정 속성: BuildProjectReferences=false
@@ -3066,7 +3070,7 @@
                      작업 매개 변수:Arguments=DoubleBuffer_pattern.vcxproj;x64\Debug\(작업 ID:17)
                      작업 매개 변수:Code=MSB8028(작업 ID:17)
                      작업 매개 변수:Type=Warning(작업 ID:17)
-14:05:41.679     1>C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(513,5): warning MSB8028: 중간 디렉터리(x64\Debug\)에 다른 프로젝트(DoubleBuffer_pattern.vcxproj)에서 공유하는 파일이 포함되어 있습니다.  이로 인해 잘못된 정리 및 다시 빌드 동작이 수행될 수 있습니다.
+15:29:50.903     1>C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(513,5): warning MSB8028: 중간 디렉터리(x64\Debug\)에 다른 프로젝트(DoubleBuffer_pattern.vcxproj)에서 공유하는 파일이 포함되어 있습니다.  이로 인해 잘못된 정리 및 다시 빌드 동작이 수행될 수 있습니다.
                    "VCMessage" 작업을 실행했습니다.(작업 ID:17)
                    조건이 잘못되어 "VCMessage" 작업을 건너뜁니다. ('$(DesignTimeBuild)'!='true' and '$(IgnoreWarnIntDirInTempDetected)' != 'true' and ('$(IntDirFullPath.StartsWith($(Tmp), true, null))' == 'true' or '$(IntDirFullPath.StartsWith($(Temp), true, null))' == 'true' or '$(OutDirFullPath.StartsWith($(Tmp), true, null))' == 'true' or '$(OutDirFullPath.StartsWith($(Temp), true, null))' == 'true'))이(가) (''!='true' and '' != 'true' and ('False' == 'true' or 'False' == 'true' or 'False' == 'true' or 'False' == 'true'))(으)로 확인되었습니다.
                    "MakeDir" 작업(작업 ID:18)
@@ -3075,24 +3079,23 @@
                              x64\Debug\
                              C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\x64\Debug\
                              x64\Debug\08.Doubl.4d3e9a93.tlog\(작업 ID:18)
-                     "x64\Debug\08.Doubl.4d3e9a93.tlog\" 디렉터리를 만들고 있습니다.(작업 ID:18)
                    "MakeDir" 작업을 실행했습니다.(작업 ID:18)
-14:05:41.688     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "PrepareForBuild" 대상을 빌드했습니다.: (대상 ID:20)
+15:29:50.904     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "PrepareForBuild" 대상을 빌드했습니다.: (대상 ID:20)
                    "_PrepareForReferenceResolution" 대상을 건너뜁니다. 이전에 빌드되었습니다.
                    조건이 잘못되어 "ComputeCrtSDKReference" 대상을 건너뜁니다. ('@(ClCompile)'!='' and '$(WindowsAppContainer)'=='true' and '$(UseCrtSDKReference)' != 'false')이(가) ('main.cpp'!='' and 'false'=='true' and '' != 'false')(으)로 확인되었습니다.
                    조건이 잘못되어 "GetInstalledSDKLocations" 대상을 건너뜁니다. ('@(SDKReference)' != '')이(가) ('' != '')(으)로 확인되었습니다.
-14:05:41.688     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" 파일에 있는 "ResolveSDKReferences: (대상 ID:21)" 대상("ResolveAssemblyReferences" 대상이 종속됨):
+15:29:50.904     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" 파일에 있는 "ResolveSDKReferences: (대상 ID:21)" 대상("ResolveAssemblyReferences" 대상이 종속됨):
                    조건이 잘못되어 "ResolveSDKReference" 작업을 건너뜁니다. ('@(SDKReference)'!='')이(가) (''!='')(으)로 확인되었습니다.
-14:05:41.688     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "ResolveSDKReferences" 대상을 빌드했습니다.: (대상 ID:21)
+15:29:50.904     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "ResolveSDKReferences" 대상을 빌드했습니다.: (대상 ID:21)
                    "ResolveSDKReferences" 대상을 건너뜁니다. 이전에 빌드되었습니다.
-14:05:41.688     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" 파일에 있는 "ExpandSDKReferences: (대상 ID:22)" 대상("ResolveAssemblyReferences" 대상이 종속됨):
+15:29:50.904     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" 파일에 있는 "ExpandSDKReferences: (대상 ID:22)" 대상("ResolveAssemblyReferences" 대상이 종속됨):
                    조건이 잘못되어 "GetSDKReferenceFiles" 작업을 건너뜁니다. ('@(ResolvedSDKReference)'!='')이(가) (''!='')(으)로 확인되었습니다.
-14:05:41.688     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "ExpandSDKReferences" 대상을 빌드했습니다.: (대상 ID:22)
+15:29:50.904     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "ExpandSDKReferences" 대상을 빌드했습니다.: (대상 ID:22)
                    조건이 잘못되어 "ResolveNuGetPackageAssets" 대상을 건너뜁니다. ('$(ResolveNuGetPackages)' == 'true' and exists('$(ProjectLockFile)'))이(가) ('true' == 'true' and exists('obj\project.assets.json'))(으)로 확인되었습니다.
                    조건이 잘못되어 "ImplicitlyExpandNETStandardFacades" 대상을 건너뜁니다. ('$(ImplicitlyExpandNETStandardFacades)' == 'true')이(가) ('' == 'true')(으)로 확인되었습니다.
                    조건이 잘못되어 "_HandlePackageFileConflicts" 대상을 건너뜁니다. ('@(Reference)' != '' Or '@(ReferenceCopyLocalPaths)' != '')이(가) ('' != '' Or '' != '')(으)로 확인되었습니다.
                    조건이 잘못되어 "ImplicitlyExpandNETStandardFacades" 대상을 건너뜁니다. ('$(ImplicitlyExpandNETStandardFacades)' == 'true')이(가) ('' == 'true')(으)로 확인되었습니다.
-14:05:41.688     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" 파일에 있는 "ResolveAssemblyReferences: (대상 ID:23)" 대상("ResolveReferences" 대상이 종속됨):
+15:29:50.905     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" 파일에 있는 "ResolveAssemblyReferences: (대상 ID:23)" 대상("ResolveReferences" 대상이 종속됨):
                    추가된 항목: 
                        _ReferenceInstalledAssemblyDirectory=
                            C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0
@@ -3106,23 +3109,27 @@
                    설정 속성: ResolveAssemblyReferenceOutputUnresolvedAssemblyConflicts=false
                    설정 속성: FindDependenciesOfExternallyResolvedReferences=false
                    조건이 잘못되어 "ResolveAssemblyReference" 작업을 건너뜁니다. ('@(Reference)'!='' or '@(_ResolvedProjectReferencePaths)'!='' or '@(_ExplicitReference)' != '')이(가) (''!='' or ''!='' or '' != '')(으)로 확인되었습니다.
-14:05:41.688     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "ResolveAssemblyReferences" 대상을 빌드했습니다.: (대상 ID:23)
+15:29:50.905     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "ResolveAssemblyReferences" 대상을 빌드했습니다.: (대상 ID:23)
                    조건이 잘못되어 "GenerateBindingRedirects" 대상을 건너뜁니다. ('$(AutoGenerateBindingRedirects)' == 'true' and '$(GenerateBindingRedirectsOutputType)' == 'true')이(가) ('' == 'true' and 'true' == 'true')(으)로 확인되었습니다.
                    조건이 잘못되어 "_RemoveZipFileSuggestedRedirect" 대상을 건너뜁니다. ('$(_TargetFrameworkVersionWithoutV)' >= '4.7.1' And '$(AllowZipFileRedirect)' != 'true')이(가) ('4.0' >= '4.7.1' And '' != 'true')(으)로 확인되었습니다.
                    조건이 잘못되어 "GenerateBindingRedirectsUpdateAppConfig" 대상을 건너뜁니다. ('$(AutoGenerateBindingRedirects)' == 'true' and '$(GenerateBindingRedirectsOutputType)' == 'true' and Exists('$(_GenerateBindingRedirectsIntermediateAppConfig)'))이(가) ('' == 'true' and 'true' == 'true' and Exists('x64\Debug\08.DoubleBuffer_pattern.exe.config'))(으)로 확인되었습니다.
                    조건이 잘못되어 "ResolveComReferences" 대상을 건너뜁니다. ('@(COMReference)'!='' or '@(COMFileReference)'!='')이(가) (''!='' or ''!='')(으)로 확인되었습니다.
-14:05:41.689     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" 파일에 있는 "AfterResolveReferences: (대상 ID:24)" 대상("ResolveReferences" 대상이 종속됨):
-14:05:41.689     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "AfterResolveReferences" 대상을 빌드했습니다.: (대상 ID:24)
+15:29:50.905     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" 파일에 있는 "AfterResolveReferences: (대상 ID:24)" 대상("ResolveReferences" 대상이 종속됨):
+15:29:50.905     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "AfterResolveReferences" 대상을 빌드했습니다.: (대상 ID:24)
                    조건이 잘못되어 "ImplicitlyExpandDesignTimeFacades" 대상을 건너뜁니다. ('$(ImplicitlyExpandDesignTimeFacades)' == 'true')이(가) ('' == 'true')(으)로 확인되었습니다.
                    조건이 잘못되어 "ResolveTestReferences" 대상을 건너뜁니다. ('@(Shadow)'!='')이(가) (''!='')(으)로 확인되었습니다.
-14:05:41.689     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" 파일에 있는 "ResolveReferences: (대상 ID:25)" 대상("Build" 대상이 종속됨):
-14:05:41.689     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "ResolveReferences" 대상을 빌드했습니다.: (대상 ID:25)
+15:29:50.905     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" 파일에 있는 "ResolveReferences: (대상 ID:25)" 대상("Build" 대상이 종속됨):
+15:29:50.905     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "ResolveReferences" 대상을 빌드했습니다.: (대상 ID:25)
                    "PrepareForBuild" 대상을 건너뜁니다. 이전에 빌드되었습니다.
                    "PrepareForBuild" 대상을 건너뜁니다. 이전에 빌드되었습니다.
-14:05:41.689     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" 파일에 있는 "InitializeBuildStatus: (대상 ID:26)" 대상("Build" 대상이 종속됨):
+15:29:50.905     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" 파일에 있는 "InitializeBuildStatus: (대상 ID:26)" 대상("Build" 대상이 종속됨):
                    "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" 어셈블리에서 "ReadLinesFromFile" 작업을 사용합니다.
                    "ReadLinesFromFile" 작업(작업 ID:19)
                      작업 매개 변수:File=x64\Debug\08.Doubl.4d3e9a93.tlog\08.DoubleBuffer_pattern.lastbuildstate(작업 ID:19)
+                     출력 항목: 
+                         _ReadProjectStateLine=
+                             PlatformToolSet=v142:VCToolArchitecture=Native32Bit:VCToolsVersion=14.29.30133:VCServicingVersionMFC=14.29.30136:TargetPlatformVersion=10.0.19041.0:
+                             Debug|x64|C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\|(작업 ID:19)
                    "ReadLinesFromFile" 작업을 실행했습니다.(작업 ID:19)
                    설정 속성: ProjectStateLine=TargetPlatformVersion=10.0.19041.0:
                    설정 속성: ProjectStateLine=VCServicingVersionMFC=14.29.30136:TargetPlatformVersion=10.0.19041.0:
@@ -3144,33 +3151,33 @@
                      작업 매개 변수:Files=x64\Debug\08.Doubl.4d3e9a93.tlog\unsuccessfulbuild(작업 ID:21)
                      "AlwaysCreate"이(가) 지정되었기 때문에 "x64\Debug\08.Doubl.4d3e9a93.tlog\unsuccessfulbuild"을(를) 만들고 있습니다.(작업 ID:21)
                    "Touch" 작업을 실행했습니다.(작업 ID:21)
-14:05:41.695     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "InitializeBuildStatus" 대상을 빌드했습니다.: (대상 ID:26)
+15:29:50.911     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "InitializeBuildStatus" 대상을 빌드했습니다.: (대상 ID:26)
                    "PrepareProjectReferences" 대상을 건너뜁니다. 이전에 빌드되었습니다.
-14:05:41.695     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" 파일에 있는 "BuildGenerateSourcesTraverse: (대상 ID:27)" 대상("BuildGenerateSources" 대상이 종속됨):
+15:29:50.911     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" 파일에 있는 "BuildGenerateSourcesTraverse: (대상 ID:27)" 대상("BuildGenerateSources" 대상이 종속됨):
                    조건이 잘못되어 "MSBuild" 작업을 건너뜁니다. ('$(BuildPassReferences)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != '' and '%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true')이(가) ('' == 'true' and '' != '' and '' != '' and '' == 'true')(으)로 확인되었습니다.
-14:05:41.695     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "BuildGenerateSourcesTraverse" 대상을 빌드했습니다.: (대상 ID:27)
+15:29:50.911     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "BuildGenerateSourcesTraverse" 대상을 빌드했습니다.: (대상 ID:27)
                    "PrepareForBuild" 대상을 건너뜁니다. 이전에 빌드되었습니다.
                    "ResolveReferences" 대상을 건너뜁니다. 이전에 빌드되었습니다.
-14:05:41.695     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.BuildSteps.Targets" 파일에 있는 "BeforeBuildGenerateSources: (대상 ID:28)" 대상("_BuildGenerateSourcesAction" 대상이 종속됨):
-14:05:41.695     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "BeforeBuildGenerateSources" 대상을 빌드했습니다.: (대상 ID:28)
-14:05:41.695     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets" 파일에 있는 "PreBuildEvent: (대상 ID:29)" 대상("_BuildGenerateSourcesAction" 대상이 종속됨):
+15:29:50.911     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.BuildSteps.Targets" 파일에 있는 "BeforeBuildGenerateSources: (대상 ID:28)" 대상("_BuildGenerateSourcesAction" 대상이 종속됨):
+15:29:50.911     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "BeforeBuildGenerateSources" 대상을 빌드했습니다.: (대상 ID:28)
+15:29:50.911     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets" 파일에 있는 "PreBuildEvent: (대상 ID:29)" 대상("_BuildGenerateSourcesAction" 대상이 종속됨):
                    조건이 잘못되어 "Message" 작업을 건너뜁니다. ('%(PreBuildEvent.Message)' != '' and '%(PreBuildEvent.Command)' != '')이(가) ('' != '' and '' != '')(으)로 확인되었습니다.
                    조건이 잘못되어 "Exec" 작업을 건너뜁니다. ('%(PreBuildEvent.Command)' != '')이(가) ('' != '')(으)로 확인되었습니다.
-14:05:41.695     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "PreBuildEvent" 대상을 빌드했습니다.: (대상 ID:29)
+15:29:50.911     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "PreBuildEvent" 대상을 빌드했습니다.: (대상 ID:29)
                    "PrepareForBuild" 대상을 건너뜁니다. 이전에 빌드되었습니다.
                    "InitializeBuildStatus" 대상을 건너뜁니다. 이전에 빌드되었습니다.
                    "SetBuildDefaultEnvironmentVariables" 대상을 건너뜁니다. 이전에 빌드되었습니다.
                    조건이 잘못되어 "SetUserMacroEnvironmentVariables" 대상을 건너뜁니다. ('@(BuildMacro)' != '' and '$(DesignTimeBuild)' != 'true')이(가) ('' != '' and '' != 'true')(으)로 확인되었습니다.
-14:05:41.695     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" 파일에 있는 "_SelectedFiles: (대상 ID:30)" 대상("SelectCustomBuild" 대상이 종속됨):
-14:05:41.695     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "_SelectedFiles" 대상을 빌드했습니다.: (대상 ID:30)
-14:05:41.695     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" 파일에 있는 "SelectCustomBuild: (대상 ID:31)" 대상("CustomBuild" 대상이 종속됨):
-14:05:41.695     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "SelectCustomBuild" 대상을 빌드했습니다.: (대상 ID:31)
-14:05:41.695     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" 파일에 있는 "ComputeCustomBuildOutput: (대상 ID:32)" 대상("CustomBuild" 대상이 종속됨):
+15:29:50.911     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" 파일에 있는 "_SelectedFiles: (대상 ID:30)" 대상("SelectCustomBuild" 대상이 종속됨):
+15:29:50.911     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "_SelectedFiles" 대상을 빌드했습니다.: (대상 ID:30)
+15:29:50.911     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" 파일에 있는 "SelectCustomBuild: (대상 ID:31)" 대상("CustomBuild" 대상이 종속됨):
+15:29:50.911     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "SelectCustomBuild" 대상을 빌드했습니다.: (대상 ID:31)
+15:29:50.911     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" 파일에 있는 "ComputeCustomBuildOutput: (대상 ID:32)" 대상("CustomBuild" 대상이 종속됨):
                    조건이 잘못되어 "CreateItem" 작업을 건너뜁니다. ('%(CustomBuildOutputs.OutputItemType)'!='')이(가) (''!='')(으)로 확인되었습니다.
                    "MakeDir" 작업(작업 ID:22)
                    "MakeDir" 작업을 실행했습니다.(작업 ID:22)
-14:05:41.695     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "ComputeCustomBuildOutput" 대상을 빌드했습니다.: (대상 ID:32)
-14:05:41.695     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets" 파일에 있는 "CustomBuild: (대상 ID:33)" 대상("_BuildGenerateSourcesAction" 대상이 종속됨):
+15:29:50.911     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "ComputeCustomBuildOutput" 대상을 빌드했습니다.: (대상 ID:32)
+15:29:50.911     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets" 파일에 있는 "CustomBuild: (대상 ID:33)" 대상("_BuildGenerateSourcesAction" 대상이 종속됨):
                    설정 속성: CustomBuildToolArchitecture=Native32Bit
                    "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.Build.CppTasks.Common.dll" 어셈블리에서 "GetOutOfDateItems" 작업을 사용합니다.
                    "GetOutOfDateItems" 작업(작업 ID:23)
@@ -3190,12 +3197,12 @@
                    "GetOutOfDateItems" 작업을 실행했습니다.(작업 ID:24)
                    조건이 잘못되어 "ParallelCustomBuild" 작업을 건너뜁니다. ('@(_ParallelCustomBuild)' != '')이(가) ('' != '')(으)로 확인되었습니다.
                    조건이 잘못되어 "CustomBuild" 작업을 건너뜁니다. ('@(_CustomBuild)' != '')이(가) ('' != '')(으)로 확인되었습니다.
-14:05:41.700     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "CustomBuild" 대상을 빌드했습니다.: (대상 ID:33)
+15:29:50.912     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "CustomBuild" 대상을 빌드했습니다.: (대상 ID:33)
                    조건이 잘못되어 "FxExport" 대상을 건너뜁니다. ('@(FxCompile)' != '')이(가) ('' != '')(으)로 확인되었습니다.
                    조건이 잘못되어 "FxCompile" 대상을 건너뜁니다. ('@(FxCompile)' != '')이(가) ('' != '')(으)로 확인되었습니다.
                    조건이 잘못되어 "_CreateCopyFileItems" 대상을 건너뜁니다. ('@(CopyFileToFolders)' != '')이(가) ('' != '')(으)로 확인되었습니다.
                    "_SelectedFiles" 대상을 건너뜁니다. 이전에 빌드되었습니다.
-14:05:41.700     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets" 파일에 있는 "CopyFileToFolders: (대상 ID:34)" 대상("_BuildGenerateSourcesAction" 대상이 종속됨):
+15:29:50.912     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets" 파일에 있는 "CopyFileToFolders: (대상 ID:34)" 대상("_BuildGenerateSourcesAction" 대상이 종속됨):
                    "GetOutOfDateItems" 작업(작업 ID:25)
                      작업 매개 변수:TLogNamePrefix=CopyFile(작업 ID:25)
                      작업 매개 변수:TLogDirectory=x64\Debug\08.Doubl.4d3e9a93.tlog\(작업 ID:25)
@@ -3203,65 +3210,65 @@
                      작업 매개 변수:CommandMetadataName=FullDestinationPath(작업 ID:25)
                    "GetOutOfDateItems" 작업을 실행했습니다.(작업 ID:25)
                    조건이 잘못되어 "Copy" 작업을 건너뜁니다. ('@(_OutOfDateCopyFile)' != '')이(가) ('' != '')(으)로 확인되었습니다.
-14:05:41.701     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "CopyFileToFolders" 대상을 빌드했습니다.: (대상 ID:34)
+15:29:50.912     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "CopyFileToFolders" 대상을 빌드했습니다.: (대상 ID:34)
                    조건이 잘못되어 "Xsd" 대상을 건너뜁니다. ('@(Xsd)' != '')이(가) ('' != '')(으)로 확인되었습니다.
-14:05:41.701     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" 파일에 있는 "_Xsd: (대상 ID:35)" 대상("_BuildGenerateSourcesAction" 대상이 종속됨):
-14:05:41.701     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "_Xsd" 대상을 빌드했습니다.: (대상 ID:35)
-14:05:41.701     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" 파일에 있는 "MakeDirsForMidl: (대상 ID:36)" 대상("_Midl" 대상이 종속됨):
+15:29:50.912     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" 파일에 있는 "_Xsd: (대상 ID:35)" 대상("_BuildGenerateSourcesAction" 대상이 종속됨):
+15:29:50.912     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "_Xsd" 대상을 빌드했습니다.: (대상 ID:35)
+15:29:50.912     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" 파일에 있는 "MakeDirsForMidl: (대상 ID:36)" 대상("_Midl" 대상이 종속됨):
                    설정 속성: Midl_OutputDir=
                    "Makedir" 작업(작업 ID:26)
                    "Makedir" 작업을 실행했습니다.(작업 ID:26)
-14:05:41.701     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "MakeDirsForMidl" 대상을 빌드했습니다.: (대상 ID:36)
+15:29:50.912     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "MakeDirsForMidl" 대상을 빌드했습니다.: (대상 ID:36)
                    조건이 잘못되어 "Midl" 대상을 건너뜁니다. ('@(Midl)' != '')이(가) ('' != '')(으)로 확인되었습니다.
                    조건이 잘못되어 "FxExport" 대상을 건너뜁니다. ('@(FxCompile)' != '')이(가) ('' != '')(으)로 확인되었습니다.
                    조건이 잘못되어 "FxCompile" 대상을 건너뜁니다. ('@(FxCompile)' != '')이(가) ('' != '')(으)로 확인되었습니다.
-14:05:41.701     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" 파일에 있는 "ComputeMIDLGeneratedCompileInputs: (대상 ID:37)" 대상("_Midl" 대상이 종속됨):
+15:29:50.912     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" 파일에 있는 "ComputeMIDLGeneratedCompileInputs: (대상 ID:37)" 대상("_Midl" 대상이 종속됨):
                    설정 속성: Midl_OutputDir=
-14:05:41.701     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "ComputeMIDLGeneratedCompileInputs" 대상을 빌드했습니다.: (대상 ID:37)
-14:05:41.701     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" 파일에 있는 "AfterMidl: (대상 ID:38)" 대상("_Midl" 대상이 종속됨):
-14:05:41.701     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "AfterMidl" 대상을 빌드했습니다.: (대상 ID:38)
-14:05:41.701     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" 파일에 있는 "_Midl: (대상 ID:39)" 대상("_BuildGenerateSourcesAction" 대상이 종속됨):
-14:05:41.701     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "_Midl" 대상을 빌드했습니다.: (대상 ID:39)
-14:05:41.701     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.BuildSteps.Targets" 파일에 있는 "AfterBuildGenerateSources: (대상 ID:40)" 대상("_BuildGenerateSourcesAction" 대상이 종속됨):
-14:05:41.701     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "AfterBuildGenerateSources" 대상을 빌드했습니다.: (대상 ID:40)
-14:05:41.701     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" 파일에 있는 "AfterBuildGenerateSourcesEvent: (대상 ID:41)" 대상("_BuildGenerateSourcesAction" 대상이 종속됨):
-14:05:41.701     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "AfterBuildGenerateSourcesEvent" 대상을 빌드했습니다.: (대상 ID:41)
-14:05:41.701     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" 파일에 있는 "_BuildGenerateSourcesAction: (대상 ID:42)" 대상("BuildGenerateSources" 대상이 종속됨):
-14:05:41.701     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "_BuildGenerateSourcesAction" 대상을 빌드했습니다.: (대상 ID:42)
-14:05:41.701     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" 파일에 있는 "BuildGenerateSources: (대상 ID:43)" 대상("Build" 대상이 종속됨):
-14:05:41.701     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "BuildGenerateSources" 대상을 빌드했습니다.: (대상 ID:43)
+15:29:50.912     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "ComputeMIDLGeneratedCompileInputs" 대상을 빌드했습니다.: (대상 ID:37)
+15:29:50.912     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" 파일에 있는 "AfterMidl: (대상 ID:38)" 대상("_Midl" 대상이 종속됨):
+15:29:50.912     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "AfterMidl" 대상을 빌드했습니다.: (대상 ID:38)
+15:29:50.912     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" 파일에 있는 "_Midl: (대상 ID:39)" 대상("_BuildGenerateSourcesAction" 대상이 종속됨):
+15:29:50.912     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "_Midl" 대상을 빌드했습니다.: (대상 ID:39)
+15:29:50.912     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.BuildSteps.Targets" 파일에 있는 "AfterBuildGenerateSources: (대상 ID:40)" 대상("_BuildGenerateSourcesAction" 대상이 종속됨):
+15:29:50.912     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "AfterBuildGenerateSources" 대상을 빌드했습니다.: (대상 ID:40)
+15:29:50.912     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" 파일에 있는 "AfterBuildGenerateSourcesEvent: (대상 ID:41)" 대상("_BuildGenerateSourcesAction" 대상이 종속됨):
+15:29:50.912     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "AfterBuildGenerateSourcesEvent" 대상을 빌드했습니다.: (대상 ID:41)
+15:29:50.912     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" 파일에 있는 "_BuildGenerateSourcesAction: (대상 ID:42)" 대상("BuildGenerateSources" 대상이 종속됨):
+15:29:50.912     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "_BuildGenerateSourcesAction" 대상을 빌드했습니다.: (대상 ID:42)
+15:29:50.912     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" 파일에 있는 "BuildGenerateSources: (대상 ID:43)" 대상("Build" 대상이 종속됨):
+15:29:50.912     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "BuildGenerateSources" 대상을 빌드했습니다.: (대상 ID:43)
                    "PrepareProjectReferences" 대상을 건너뜁니다. 이전에 빌드되었습니다.
-14:05:41.701     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" 파일에 있는 "BuildCompileTraverse: (대상 ID:44)" 대상("BuildCompile" 대상이 종속됨):
+15:29:50.913     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" 파일에 있는 "BuildCompileTraverse: (대상 ID:44)" 대상("BuildCompile" 대상이 종속됨):
                    조건이 잘못되어 "MSBuild" 작업을 건너뜁니다. ('$(BuildPassReferences)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != ''  and '%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true')이(가) ('' == 'true' and '' != '' and '' != ''  and '' == 'true')(으)로 확인되었습니다.
-14:05:41.701     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "BuildCompileTraverse" 대상을 빌드했습니다.: (대상 ID:44)
+15:29:50.913     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "BuildCompileTraverse" 대상을 빌드했습니다.: (대상 ID:44)
                    "PrepareForBuild" 대상을 건너뜁니다. 이전에 빌드되었습니다.
                    "ResolveReferences" 대상을 건너뜁니다. 이전에 빌드되었습니다.
-14:05:41.702     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" 파일에 있는 "BeforeClCompile: (대상 ID:45)" 대상("_ClCompile" 대상이 종속됨):
-14:05:41.702     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "BeforeClCompile" 대상을 빌드했습니다.: (대상 ID:45)
+15:29:50.913     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" 파일에 있는 "BeforeClCompile: (대상 ID:45)" 대상("_ClCompile" 대상이 종속됨):
+15:29:50.913     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "BeforeClCompile" 대상을 빌드했습니다.: (대상 ID:45)
                    조건이 잘못되어 "GenerateTargetFrameworkMonikerAttribute" 대상을 건너뜁니다. ('$(GenerateTargetFrameworkAttribute)' == 'true')이(가) ('false' == 'true')(으)로 확인되었습니다.
                    "ComputeMIDLGeneratedCompileInputs" 대상을 건너뜁니다. 이전에 빌드되었습니다.
-14:05:41.702     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" 파일에 있는 "ComputeCLInputPDBName: (대상 ID:46)" 대상("_ClCompile" 대상이 종속됨):
-14:05:41.702     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "ComputeCLInputPDBName" 대상을 빌드했습니다.: (대상 ID:46)
+15:29:50.913     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" 파일에 있는 "ComputeCLInputPDBName: (대상 ID:46)" 대상("_ClCompile" 대상이 종속됨):
+15:29:50.913     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "ComputeCLInputPDBName" 대상을 빌드했습니다.: (대상 ID:46)
                    "ResolveReferences" 대상을 건너뜁니다. 이전에 빌드되었습니다.
-14:05:41.702     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" 파일에 있는 "FindReferenceAssembliesForReferences: (대상 ID:47)" 대상("ComputeReferenceCLInput" 대상이 종속됨):
-14:05:41.702     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "FindReferenceAssembliesForReferences" 대상을 빌드했습니다.: (대상 ID:47)
+15:29:50.913     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" 파일에 있는 "FindReferenceAssembliesForReferences: (대상 ID:47)" 대상("ComputeReferenceCLInput" 대상이 종속됨):
+15:29:50.913     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "FindReferenceAssembliesForReferences" 대상을 빌드했습니다.: (대상 ID:47)
                    "PrepareForBuild" 대상을 건너뜁니다. 이전에 빌드되었습니다.
                    "ResolveReferences" 대상을 건너뜁니다. 이전에 빌드되었습니다.
-14:05:41.702     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" 파일에 있는 "GetReferencedVCProjectsInfo: (대상 ID:48)" 대상("ComputeReferenceCLInput" 대상이 종속됨):
+15:29:50.913     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" 파일에 있는 "GetReferencedVCProjectsInfo: (대상 ID:48)" 대상("ComputeReferenceCLInput" 대상이 종속됨):
                    조건이 잘못되어 "MSBuild" 작업을 건너뜁니다. ('%(_MSBuildProjectReferenceExistent.Extension)' == '.vcxproj' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != '')이(가) ('' == '.vcxproj' and '' != '' and '' != '')(으)로 확인되었습니다.
-14:05:41.702     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "GetReferencedVCProjectsInfo" 대상을 빌드했습니다.: (대상 ID:48)
-14:05:41.702     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" 파일에 있는 "ComputeReferenceCLInput: (대상 ID:49)" 대상("_ClCompile" 대상이 종속됨):
+15:29:50.913     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "GetReferencedVCProjectsInfo" 대상을 빌드했습니다.: (대상 ID:48)
+15:29:50.913     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" 파일에 있는 "ComputeReferenceCLInput: (대상 ID:49)" 대상("_ClCompile" 대상이 종속됨):
                    조건이 잘못되어 "WriteLinesToFile" 작업을 건너뜁니다. ('@(_ReferenceOutputsToCopyLocally)'!='' and '$(DesignTimeBuild)' != 'true' and '$(TrackFileAccess)' == 'true')이(가) (''!='' and '' != 'true' and 'true' == 'true')(으)로 확인되었습니다.
                    조건이 잘못되어 "WriteLinesToFile" 작업을 건너뜁니다. ('@(_ReferenceOutputsToCopyLocally)'!='' and '$(DesignTimeBuild)' != 'true' and '$(TrackFileAccess)' == 'true')이(가) (''!='' and '' != 'true' and 'true' == 'true')(으)로 확인되었습니다.
                    조건이 잘못되어 "Message" 작업을 건너뜁니다. ('$(_REFERENCE_DEBUG)'=='true')이(가) (''=='true')(으)로 확인되었습니다.
-14:05:41.702     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "ComputeReferenceCLInput" 대상을 빌드했습니다.: (대상 ID:49)
-14:05:41.702     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" 파일에 있는 "WarnCompileDuplicatedFilename: (대상 ID:50)" 대상("_ClCompile" 대상이 종속됨):
+15:29:50.913     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "ComputeReferenceCLInput" 대상을 빌드했습니다.: (대상 ID:49)
+15:29:50.913     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" 파일에 있는 "WarnCompileDuplicatedFilename: (대상 ID:50)" 대상("_ClCompile" 대상이 종속됨):
                    조건이 잘못되어 "VCMessage" 작업을 건너뜁니다. ('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())')이(가) ('' != 'true' and 'main.cpp' != 'main.cpp' and 'x64\Debug\' == 'x64\Debug\')(으)로 확인되었습니다.
-14:05:41.705     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "WarnCompileDuplicatedFilename" 대상을 빌드했습니다.: (대상 ID:50)
-14:05:41.705     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets" 파일에 있는 "FixupCLCompileOptions: (대상 ID:51)" 대상("_ClCompile" 대상이 종속됨):
+15:29:50.913     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "WarnCompileDuplicatedFilename" 대상을 빌드했습니다.: (대상 ID:50)
+15:29:50.913     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets" 파일에 있는 "FixupCLCompileOptions: (대상 ID:51)" 대상("_ClCompile" 대상이 종속됨):
                    설정 속성: _PCHForceSyncWrite=true
-14:05:41.706     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "FixupCLCompileOptions" 대상을 빌드했습니다.: (대상 ID:51)
-14:05:41.706     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" 파일에 있는 "MakeDirsForCl: (대상 ID:52)" 대상("_ClCompile" 대상이 종속됨):
+15:29:50.914     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "FixupCLCompileOptions" 대상을 빌드했습니다.: (대상 ID:51)
+15:29:50.914     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" 파일에 있는 "MakeDirsForCl: (대상 ID:52)" 대상("_ClCompile" 대상이 종속됨):
                    추가된 항목: ClDirsToMake=C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\x64\Debug
                    추가된 항목: ClDirsToMake=C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\x64\Debug
                    추가된 항목: ClDirsToMake=C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\x64\Debug
@@ -3280,7 +3287,7 @@
                            C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\x64\Debug
                            C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\x64\Debug
                            C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\x64\Debug
-14:05:41.710     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "MakeDirsForCl" 대상을 빌드했습니다.: (대상 ID:52)
+15:29:50.914     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "MakeDirsForCl" 대상을 빌드했습니다.: (대상 ID:52)
                    "_SelectedFiles" 대상을 건너뜁니다. 이전에 빌드되었습니다.
                    조건이 잘못되어 "GenerateTargetFrameworkMonikerAttribute" 대상을 건너뜁니다. ('$(GenerateTargetFrameworkAttribute)' == 'true')이(가) ('false' == 'true')(으)로 확인되었습니다.
                    "ComputeMIDLGeneratedCompileInputs" 대상을 건너뜁니다. 이전에 빌드되었습니다.
@@ -3290,11 +3297,11 @@
                    "FixupCLCompileOptions" 대상을 건너뜁니다. 이전에 빌드되었습니다.
                    "SelectCustomBuild" 대상을 건너뜁니다. 이전에 빌드되었습니다.
                    조건이 잘못되어 "SetModuleDependencies" 대상을 건너뜁니다. ('$(DesignTimeBuild)' != 'true' and '$(EnableCppModules)' == 'true')이(가) ('' != 'true' and '' == 'true')(으)로 확인되었습니다.
-14:05:41.710     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" 파일에 있는 "SelectClCompile: (대상 ID:53)" 대상("ClCompile" 대상이 종속됨):
-14:05:41.710     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "SelectClCompile" 대상을 빌드했습니다.: (대상 ID:53)
+15:29:50.914     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" 파일에 있는 "SelectClCompile: (대상 ID:53)" 대상("ClCompile" 대상이 종속됨):
+15:29:50.914     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "SelectClCompile" 대상을 빌드했습니다.: (대상 ID:53)
                    조건이 잘못되어 "SelectAnalysisManifest" 대상을 건너뜁니다. ('$(RunMsvcAnalysis)'=='true' and '$(SelectedFiles)'!='')이(가) ('false'=='true' and ''!='')(으)로 확인되었습니다.
                    조건이 잘못되어 "ManagedIncrementalBuildPreProcessDependencyGraph" 대상을 건너뜁니다. ('@(ClCompile)' != '' and '$(EnableManagedIncrementalBuild)' == 'True')이(가) ('main.cpp' != '' and 'false' == 'True')(으)로 확인되었습니다.
-14:05:41.710     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets" 파일에 있는 "ClCompile: (대상 ID:54)" 대상("_ClCompile" 대상이 종속됨):
+15:29:50.914     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets" 파일에 있는 "ClCompile: (대상 ID:54)" 대상("_ClCompile" 대상이 종속됨):
                    설정 속성: CLToolArchitecture=Native32Bit
                    조건이 잘못되어 "Delete" 작업을 건너뜁니다. ('%(ClCompile.DebugInformationFormat)' != '' and '%(ClCompile.DebugInformationFormat)' != 'None' and '%(ClCompile.DebugInformationFormat)' != 'OldStyle' and '%(ClCompile.ProgramDataBaseFileName)' != '' and !Exists(%(ClCompile.ProgramDataBaseFileName)))이(가) ('EditAndContinue' != '' and 'EditAndContinue' != 'None' and 'EditAndContinue' != 'OldStyle' and 'x64\Debug\vc142.pdb' != '' and !Exists(x64\Debug\vc142.pdb))(으)로 확인되었습니다.
                    조건이 잘못되어 "MultiToolTask" 작업을 건너뜁니다. ('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(ClCompile.CompilerIteration)' == 'Modules')이(가) ('' != 'true' and '' == 'Modules')(으)로 확인되었습니다.
@@ -3493,54 +3500,62 @@
                      작업 매개 변수:AssemblerOutput=NoListing(작업 ID:28)
                      작업 매개 변수:FavorSizeOrSpeed=Neither(작업 ID:28)
                      작업 매개 변수:DiagnosticsFormat=Column(작업 ID:28)
-                     모든 소스 파일이 최신 상태가 아닙니다. 명령 TLog "C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\x64\Debug\08.Doubl.4d3e9a93.tlog\CL.command.1.tlog"이(가) 없습니다.(작업 ID:28)
+                     읽기 추적 로그:(작업 ID:28)
+                     	x64\Debug\08.Doubl.4d3e9a93.tlog\CL.read.1.tlog(작업 ID:28)
+                     C:\USERS\GUSDN6763\SOURCE\REPOS\GAMEPROGRAMMING_PATTERN\DOUBLEBUFFER_PATTERN\MAIN.CPP에 대한 출력:(작업 ID:28)
+                     	C:\USERS\GUSDN6763\SOURCE\REPOS\GAMEPROGRAMMING_PATTERN\DOUBLEBUFFER_PATTERN\X64\DEBUG\MAIN.OBJ(작업 ID:28)
+                     C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\main.cpp이(가) 2023-08-22 오후 3:28:48에서 수정되었으므로 main.cpp이(가) 컴파일됩니다.(작업 ID:28)
+                     C:\USERS\GUSDN6763\SOURCE\REPOS\GAMEPROGRAMMING_PATTERN\DOUBLEBUFFER_PATTERN\MAIN.CPP에 대한 출력:(작업 ID:28)
+                     	C:\USERS\GUSDN6763\SOURCE\REPOS\GAMEPROGRAMMING_PATTERN\DOUBLEBUFFER_PATTERN\X64\DEBUG\MAIN.OBJ(작업 ID:28)
+                     쓰기 추적 로그:(작업 ID:28)
+                     	x64\Debug\08.Doubl.4d3e9a93.tlog\CL.write.1.tlog(작업 ID:28)
                      도구로 전달된 환경 변수:(작업 ID:28)
-                       VS_UNICODE_OUTPUT=1720(작업 ID:28)
+                       VS_UNICODE_OUTPUT=2028(작업 ID:28)
                      C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\bin\HostX86\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Debug\\" /Fd"x64\Debug\vc142.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt main.cpp(작업 ID:28)
                      추적 명령:(작업 ID:28)
-                     C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\Tracker.exe /d "C:\Program Files (x86)\MSBuild\15.0\FileTracker\FileTracker32.dll" /i C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\x64\Debug\08.Doubl.4d3e9a93.tlog /r C:\USERS\GUSDN6763\SOURCE\REPOS\GAMEPROGRAMMING_PATTERN\DOUBLEBUFFER_PATTERN\MAIN.CPP /b MSBuildConsole_CancelEvent18541c4467474670af996d11937b9386  /c "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\bin\HostX86\x64\CL.exe"  /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Debug\\" /Fd"x64\Debug\vc142.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt main.cpp(작업 ID:28)
+                     C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\Tracker.exe /d "C:\Program Files (x86)\MSBuild\15.0\FileTracker\FileTracker32.dll" /i C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\x64\Debug\08.Doubl.4d3e9a93.tlog /r C:\USERS\GUSDN6763\SOURCE\REPOS\GAMEPROGRAMMING_PATTERN\DOUBLEBUFFER_PATTERN\MAIN.CPP /b MSBuildConsole_CancelEvent90ee8ea8184e4f3e97109b7ed80354c9  /c "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\bin\HostX86\x64\CL.exe"  /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Debug\\" /Fd"x64\Debug\vc142.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt main.cpp(작업 ID:28)
                      main.cpp(작업 ID:28)
                    "CL" 작업을 실행했습니다.(작업 ID:28)
-14:05:42.797     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "ClCompile" 대상을 빌드했습니다.: (대상 ID:54)
+15:29:51.862     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "ClCompile" 대상을 빌드했습니다.: (대상 ID:54)
                    조건이 잘못되어 "RunSelectedFileNativeCodeAnalysis" 대상을 건너뜁니다. ('$(RunMsvcAnalysis)'=='true' and '$(SelectedFiles)'!='')이(가) ('false'=='true' and ''!='')(으)로 확인되었습니다.
                    조건이 잘못되어 "ManagedIncrementalBuildPostProcessDependencyGraph" 대상을 건너뜁니다. ('@(ClCompile)' != '' and '$(EnableManagedIncrementalBuild)' == 'True')이(가) ('main.cpp' != '' and 'false' == 'True')(으)로 확인되었습니다.
                    조건이 잘못되어 "NoAnalysisToolEnabledWarning" 대상을 건너뜁니다. ('$(RunCppAnalysis)'=='true' AND '$(EnableMicrosoftCodeAnalysis)'=='false' AND '$(EnableClangTidyCodeAnalysis)'=='false')이(가) ('false'=='true' AND 'true'=='false' AND 'false'=='false')(으)로 확인되었습니다.
                    조건이 잘못되어 "RunSelectedFileClangTidy" 대상을 건너뜁니다. ('$(RunClangCppAnalysis)'=='true' AND '$(SelectedFiles)'!='')이(가) ('false'=='true' AND ''!='')(으)로 확인되었습니다.
                    조건이 잘못되어 "MicrosoftAnalysisIncompatiableWithClangCl" 대상을 건너뜁니다. ('$(RunCppAnalysis)'=='true' AND '$(EnableMicrosoftCodeAnalysis)'=='true' AND '$(UseClangCl)'=='true')이(가) ('false'=='true' AND 'true'=='true' AND ''=='true')(으)로 확인되었습니다.
-14:05:42.797     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" 파일에 있는 "AfterClCompile: (대상 ID:55)" 대상("_ClCompile" 대상이 종속됨):
-14:05:42.797     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "AfterClCompile" 대상을 빌드했습니다.: (대상 ID:55)
-14:05:42.797     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" 파일에 있는 "_ClCompile: (대상 ID:56)" 대상("_BuildCompileAction" 대상이 종속됨):
-14:05:42.797     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "_ClCompile" 대상을 빌드했습니다.: (대상 ID:56)
+15:29:51.862     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" 파일에 있는 "AfterClCompile: (대상 ID:55)" 대상("_ClCompile" 대상이 종속됨):
+15:29:51.862     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "AfterClCompile" 대상을 빌드했습니다.: (대상 ID:55)
+15:29:51.862     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" 파일에 있는 "_ClCompile: (대상 ID:56)" 대상("_BuildCompileAction" 대상이 종속됨):
+15:29:51.862     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "_ClCompile" 대상을 빌드했습니다.: (대상 ID:56)
                    조건이 잘못되어 "_ResGen" 대상을 건너뜁니다. ('@(EmbeddedResource)'!='')이(가) (''!='')(으)로 확인되었습니다.
-14:05:42.797     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" 파일에 있는 "BeforeResourceCompile: (대상 ID:57)" 대상("_ResourceCompile" 대상이 종속됨):
-14:05:42.797     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "BeforeResourceCompile" 대상을 빌드했습니다.: (대상 ID:57)
-14:05:42.797     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" 파일에 있는 "MakeDirsForResourceCompile: (대상 ID:58)" 대상("_ResourceCompile" 대상이 종속됨):
+15:29:51.862     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" 파일에 있는 "BeforeResourceCompile: (대상 ID:57)" 대상("_ResourceCompile" 대상이 종속됨):
+15:29:51.862     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "BeforeResourceCompile" 대상을 빌드했습니다.: (대상 ID:57)
+15:29:51.862     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" 파일에 있는 "MakeDirsForResourceCompile: (대상 ID:58)" 대상("_ResourceCompile" 대상이 종속됨):
                    추가된 항목: RcDirsToMake=C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\x64\Debug
                    "MakeDir" 작업(작업 ID:29)
                      작업 매개 변수:Directories=C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\x64\Debug(작업 ID:29)
                    "MakeDir" 작업을 실행했습니다.(작업 ID:29)
                    삭제된 항목: RcDirsToMake=C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\x64\Debug
-14:05:42.798     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "MakeDirsForResourceCompile" 대상을 빌드했습니다.: (대상 ID:58)
+15:29:51.863     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "MakeDirsForResourceCompile" 대상을 빌드했습니다.: (대상 ID:58)
                    조건이 잘못되어 "ResourceCompile" 대상을 건너뜁니다. ('@(ResourceCompile)' != '')이(가) ('' != '')(으)로 확인되었습니다.
-14:05:42.798     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" 파일에 있는 "AfterResourceCompile: (대상 ID:59)" 대상("_ResourceCompile" 대상이 종속됨):
-14:05:42.798     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "AfterResourceCompile" 대상을 빌드했습니다.: (대상 ID:59)
-14:05:42.798     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" 파일에 있는 "_ResourceCompile: (대상 ID:60)" 대상("_BuildCompileAction" 대상이 종속됨):
-14:05:42.798     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "_ResourceCompile" 대상을 빌드했습니다.: (대상 ID:60)
+15:29:51.863     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" 파일에 있는 "AfterResourceCompile: (대상 ID:59)" 대상("_ResourceCompile" 대상이 종속됨):
+15:29:51.863     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "AfterResourceCompile" 대상을 빌드했습니다.: (대상 ID:59)
+15:29:51.863     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" 파일에 있는 "_ResourceCompile: (대상 ID:60)" 대상("_BuildCompileAction" 대상이 종속됨):
+15:29:51.863     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "_ResourceCompile" 대상을 빌드했습니다.: (대상 ID:60)
                    조건이 잘못되어 "_ImpLib" 대상을 건너뜁니다. ('$(ImpLibCompiled)' == 'true')이(가) ('' == 'true')(으)로 확인되었습니다.
                    조건이 잘못되어 "_Lib" 대상을 건너뜁니다. ('$(LibCompiled)' == 'true')이(가) ('' == 'true')(으)로 확인되었습니다.
-14:05:42.798     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" 파일에 있는 "AfterBuildCompileEvent: (대상 ID:61)" 대상("_BuildCompileAction" 대상이 종속됨):
-14:05:42.798     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "AfterBuildCompileEvent" 대상을 빌드했습니다.: (대상 ID:61)
-14:05:42.798     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" 파일에 있는 "_BuildCompileAction: (대상 ID:62)" 대상("BuildCompile" 대상이 종속됨):
-14:05:42.798     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "_BuildCompileAction" 대상을 빌드했습니다.: (대상 ID:62)
-14:05:42.798     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" 파일에 있는 "BuildCompile: (대상 ID:63)" 대상("Build" 대상이 종속됨):
-14:05:42.798     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "BuildCompile" 대상을 빌드했습니다.: (대상 ID:63)
+15:29:51.863     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" 파일에 있는 "AfterBuildCompileEvent: (대상 ID:61)" 대상("_BuildCompileAction" 대상이 종속됨):
+15:29:51.863     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "AfterBuildCompileEvent" 대상을 빌드했습니다.: (대상 ID:61)
+15:29:51.863     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" 파일에 있는 "_BuildCompileAction: (대상 ID:62)" 대상("BuildCompile" 대상이 종속됨):
+15:29:51.863     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "_BuildCompileAction" 대상을 빌드했습니다.: (대상 ID:62)
+15:29:51.863     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" 파일에 있는 "BuildCompile: (대상 ID:63)" 대상("Build" 대상이 종속됨):
+15:29:51.863     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "BuildCompile" 대상을 빌드했습니다.: (대상 ID:63)
                    "PrepareProjectReferences" 대상을 건너뜁니다. 이전에 빌드되었습니다.
-14:05:42.798     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" 파일에 있는 "BuildLinkTraverse: (대상 ID:64)" 대상("BuildLink" 대상이 종속됨):
+15:29:51.863     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" 파일에 있는 "BuildLinkTraverse: (대상 ID:64)" 대상("BuildLink" 대상이 종속됨):
                    조건이 잘못되어 "MSBuild" 작업을 건너뜁니다. ('$(BuildPassReferences)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != ''  and '%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true')이(가) ('' == 'true' and '' != '' and '' != ''  and '' == 'true')(으)로 확인되었습니다.
-14:05:42.798     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "BuildLinkTraverse" 대상을 빌드했습니다.: (대상 ID:64)
+15:29:51.863     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "BuildLinkTraverse" 대상을 빌드했습니다.: (대상 ID:64)
                    "PrepareForBuild" 대상을 건너뜁니다. 이전에 빌드되었습니다.
                    "ResolveReferences" 대상을 건너뜁니다. 이전에 빌드되었습니다.
-14:05:42.798     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" 파일에 있는 "ComputeLegacyManifestEmbedding: (대상 ID:65)" 대상("_BuildLinkAction" 대상이 종속됨):
+15:29:51.863     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" 파일에 있는 "ComputeLegacyManifestEmbedding: (대상 ID:65)" 대상("_BuildLinkAction" 대상이 종속됨):
                    추가된 항목: 
                        Manifest=
                            temp
@@ -3570,15 +3585,15 @@
                                    UpdateFileHashes=false
                                    VerboseOutput=true
                                    _LocalVariable=true
-14:05:42.798     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "ComputeLegacyManifestEmbedding" 대상을 빌드했습니다.: (대상 ID:65)
-14:05:42.798     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" 파일에 있는 "BeforeLink: (대상 ID:66)" 대상("_Link" 대상이 종속됨):
-14:05:42.798     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "BeforeLink" 대상을 빌드했습니다.: (대상 ID:66)
-14:05:42.798     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" 파일에 있는 "ComputeRCOutputs: (대상 ID:67)" 대상("ComputeRCGeneratedLinkInputs" 대상이 종속됨):
-14:05:42.798     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "ComputeRCOutputs" 대상을 빌드했습니다.: (대상 ID:67)
-14:05:42.798     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" 파일에 있는 "ComputeRCGeneratedLinkInputs: (대상 ID:68)" 대상("_Link" 대상이 종속됨):
-14:05:42.798     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "ComputeRCGeneratedLinkInputs" 대상을 빌드했습니다.: (대상 ID:68)
-14:05:42.798     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" 파일에 있는 "ComputeManifestGeneratedLinkerInputs: (대상 ID:69)" 대상("_Link" 대상이 종속됨):
-14:05:42.798     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "ComputeManifestGeneratedLinkerInputs" 대상을 빌드했습니다.: (대상 ID:69)
+15:29:51.863     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "ComputeLegacyManifestEmbedding" 대상을 빌드했습니다.: (대상 ID:65)
+15:29:51.863     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" 파일에 있는 "BeforeLink: (대상 ID:66)" 대상("_Link" 대상이 종속됨):
+15:29:51.863     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "BeforeLink" 대상을 빌드했습니다.: (대상 ID:66)
+15:29:51.863     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" 파일에 있는 "ComputeRCOutputs: (대상 ID:67)" 대상("ComputeRCGeneratedLinkInputs" 대상이 종속됨):
+15:29:51.863     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "ComputeRCOutputs" 대상을 빌드했습니다.: (대상 ID:67)
+15:29:51.863     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" 파일에 있는 "ComputeRCGeneratedLinkInputs: (대상 ID:68)" 대상("_Link" 대상이 종속됨):
+15:29:51.863     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "ComputeRCGeneratedLinkInputs" 대상을 빌드했습니다.: (대상 ID:68)
+15:29:51.863     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" 파일에 있는 "ComputeManifestGeneratedLinkerInputs: (대상 ID:69)" 대상("_Link" 대상이 종속됨):
+15:29:51.863     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "ComputeManifestGeneratedLinkerInputs" 대상을 빌드했습니다.: (대상 ID:69)
                    "ComputeCustomBuildOutput" 대상을 건너뜁니다. 이전에 빌드되었습니다.
                    조건이 잘못되어 "GenerateTargetFrameworkMonikerAttribute" 대상을 건너뜁니다. ('$(GenerateTargetFrameworkAttribute)' == 'true')이(가) ('false' == 'true')(으)로 확인되었습니다.
                    "ComputeMIDLGeneratedCompileInputs" 대상을 건너뜁니다. 이전에 빌드되었습니다.
@@ -3586,7 +3601,7 @@
                    "ComputeReferenceCLInput" 대상을 건너뜁니다. 이전에 빌드되었습니다.
                    "WarnCompileDuplicatedFilename" 대상을 건너뜁니다. 이전에 빌드되었습니다.
                    "FixupCLCompileOptions" 대상을 건너뜁니다. 이전에 빌드되었습니다.
-14:05:42.798     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" 파일에 있는 "ComputeCLOutputs: (대상 ID:70)" 대상("ComputeCLGeneratedLinkInputs" 대상이 종속됨):
+15:29:51.863     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" 파일에 있는 "ComputeCLOutputs: (대상 ID:70)" 대상("ComputeCLGeneratedLinkInputs" 대상이 종속됨):
                    추가된 항목: 
                        Obj=
                            x64\Debug\main.obj
@@ -3671,8 +3686,8 @@
                                    WholeProgramOptimization=false
                                    WinRTNoStdLib=false
                                    XMLDocumentationFileName=x64\Debug\
-14:05:42.799     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "ComputeCLOutputs" 대상을 빌드했습니다.: (대상 ID:70)
-14:05:42.799     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" 파일에 있는 "ComputeCLGeneratedLinkInputs: (대상 ID:71)" 대상("_Link" 대상이 종속됨):
+15:29:51.863     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "ComputeCLOutputs" 대상을 빌드했습니다.: (대상 ID:70)
+15:29:51.863     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" 파일에 있는 "ComputeCLGeneratedLinkInputs: (대상 ID:71)" 대상("_Link" 대상이 종속됨):
                    추가된 항목: 
                        Link=
                            x64\Debug\main.obj
@@ -3715,11 +3730,11 @@
                                    TypeLibraryResourceID=1
                                    UACExecutionLevel=AsInvoker
                                    UACUIAccess=false
-14:05:42.799     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "ComputeCLGeneratedLinkInputs" 대상을 빌드했습니다.: (대상 ID:71)
-14:05:42.799     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" 파일에 있는 "ComputeLinkInputsFromProject: (대상 ID:72)" 대상("_Link" 대상이 종속됨):
-14:05:42.799     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "ComputeLinkInputsFromProject" 대상을 빌드했습니다.: (대상 ID:72)
+15:29:51.863     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "ComputeCLGeneratedLinkInputs" 대상을 빌드했습니다.: (대상 ID:71)
+15:29:51.863     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" 파일에 있는 "ComputeLinkInputsFromProject: (대상 ID:72)" 대상("_Link" 대상이 종속됨):
+15:29:51.863     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "ComputeLinkInputsFromProject" 대상을 빌드했습니다.: (대상 ID:72)
                    조건이 잘못되어 "ComputeReferenceLinkInputs" 대상을 건너뜁니다. (@(ProjectReference) != '')이(가) ( != '')(으)로 확인되었습니다.
-14:05:42.799     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" 파일에 있는 "ComputeManifestInputsTargets: (대상 ID:73)" 대상("_Link" 대상이 종속됨):
+15:29:51.863     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" 파일에 있는 "ComputeManifestInputsTargets: (대상 ID:73)" 대상("_Link" 대상이 종속됨):
                    추가된 항목: 
                        Manifest=
                            temp
@@ -3750,10 +3765,10 @@
                                    UpdateFileHashes=false
                                    VerboseOutput=true
                                    _LocalVariable=true
-14:05:42.815     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "ComputeManifestInputsTargets" 대상을 빌드했습니다.: (대상 ID:73)
+15:29:51.864     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "ComputeManifestInputsTargets" 대상을 빌드했습니다.: (대상 ID:73)
                    조건이 잘못되어 "ManifestResourceCompile" 대상을 건너뜁니다. ('$(EmbedManifestBy)' == 'LINK' and '@(Manifest)' != '')이(가) ('LINK' == 'LINK' and '' != '')(으)로 확인되었습니다.
                    조건이 잘못되어 "AssignWinFXEmbeddedResource" 대상을 건너뜁니다. ('@(WinFXEmbeddedResource)' != '')이(가) ('' != '')(으)로 확인되었습니다.
-14:05:42.815     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" 파일에 있는 "AssignTargetPaths: (대상 ID:74)" 대상("PrepareResourceNames" 대상이 종속됨):
+15:29:51.864     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" 파일에 있는 "AssignTargetPaths: (대상 ID:74)" 대상("PrepareResourceNames" 대상이 종속됨):
                    "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" 어셈블리에서 "AssignTargetPath" 작업을 사용합니다.
                    "AssignTargetPath" 작업(작업 ID:30)
                      작업 매개 변수:RootFolder=C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern(작업 ID:30)
@@ -3768,9 +3783,9 @@
                      작업 매개 변수:RootFolder=C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern(작업 ID:33)
                    "AssignTargetPath" 작업을 실행했습니다.(작업 ID:33)
                    조건이 잘못되어 "AssignTargetPath" 작업을 건너뜁니다. ('@(_DeploymentBaseManifestWithTargetPath)'=='' and '%(None.Extension)'=='.manifest')이(가) (''=='' and ''=='.manifest')(으)로 확인되었습니다.
-14:05:42.818     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "AssignTargetPaths" 대상을 빌드했습니다.: (대상 ID:74)
+15:29:51.864     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "AssignTargetPaths" 대상을 빌드했습니다.: (대상 ID:74)
                    "AssignTargetPaths" 대상을 건너뜁니다. 이전에 빌드되었습니다.
-14:05:42.818     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" 파일에 있는 "SplitResourcesByCulture: (대상 ID:75)" 대상("PrepareResourceNames" 대상이 종속됨):
+15:29:51.864     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" 파일에 있는 "SplitResourcesByCulture: (대상 ID:75)" 대상("PrepareResourceNames" 대상이 종속됨):
                    조건이 잘못되어 "Warning" 작업을 건너뜁니다. ('@(ResxWithNoCulture)'!='')이(가) (''!='')(으)로 확인되었습니다.
                    조건이 잘못되어 "Warning" 작업을 건너뜁니다. ('@(ResxWithCulture)'!='')이(가) (''!='')(으)로 확인되었습니다.
                    조건이 잘못되어 "Warning" 작업을 건너뜁니다. ('@(NonResxWithCulture)'!='')이(가) (''!='')(으)로 확인되었습니다.
@@ -3778,13 +3793,13 @@
                    "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" 어셈블리에서 "AssignCulture" 작업을 사용합니다.
                    "AssignCulture" 작업(작업 ID:34)
                    "AssignCulture" 작업을 실행했습니다.(작업 ID:34)
-14:05:42.819     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "SplitResourcesByCulture" 대상을 빌드했습니다.: (대상 ID:75)
+15:29:51.864     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "SplitResourcesByCulture" 대상을 빌드했습니다.: (대상 ID:75)
                    조건이 잘못되어 "CreateManifestResourceNames" 대상을 건너뜁니다. ('@(EmbeddedResource)' != '')이(가) ('' != '')(으)로 확인되었습니다.
-14:05:42.819     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" 파일에 있는 "CreateCustomManifestResourceNames: (대상 ID:76)" 대상("PrepareResourceNames" 대상이 종속됨):
-14:05:42.819     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "CreateCustomManifestResourceNames" 대상을 빌드했습니다.: (대상 ID:76)
-14:05:42.819     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" 파일에 있는 "PrepareResourceNames: (대상 ID:77)" 대상("_Link" 대상이 종속됨):
-14:05:42.819     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "PrepareResourceNames" 대상을 빌드했습니다.: (대상 ID:77)
-14:05:42.819     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" 파일에 있는 "MakeDirsForLink: (대상 ID:78)" 대상("_Link" 대상이 종속됨):
+15:29:51.864     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" 파일에 있는 "CreateCustomManifestResourceNames: (대상 ID:76)" 대상("PrepareResourceNames" 대상이 종속됨):
+15:29:51.864     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "CreateCustomManifestResourceNames" 대상을 빌드했습니다.: (대상 ID:76)
+15:29:51.864     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" 파일에 있는 "PrepareResourceNames: (대상 ID:77)" 대상("_Link" 대상이 종속됨):
+15:29:51.864     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "PrepareResourceNames" 대상을 빌드했습니다.: (대상 ID:77)
+15:29:51.864     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" 파일에 있는 "MakeDirsForLink: (대상 ID:78)" 대상("_Link" 대상이 종속됨):
                    설정 속성: _LinkImportLibrary=C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\x64\Debug\08.DoubleBuffer_pattern.lib
                    추가된 항목: _LinkImportLibraryFile=C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\x64\Debug\08.DoubleBuffer_pattern.lib
                    추가된 항목: LinkDirsToMake=C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\x64\Debug
@@ -3806,25 +3821,25 @@
                            C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\x64\Debug
                            C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\x64\Debug\
                    삭제된 항목: _LinkImportLibraryFile=C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\x64\Debug\08.DoubleBuffer_pattern.lib
-14:05:42.820     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "MakeDirsForLink" 대상을 빌드했습니다.: (대상 ID:78)
-14:05:42.820     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" 파일에 있는 "DoLinkOutputFilesMatch: (대상 ID:79)" 대상("_Link" 대상이 종속됨):
+15:29:51.865     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "MakeDirsForLink" 대상을 빌드했습니다.: (대상 ID:78)
+15:29:51.865     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" 파일에 있는 "DoLinkOutputFilesMatch: (대상 ID:79)" 대상("_Link" 대상이 종속됨):
                    추가된 항목: _OutputFileFromLink=C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\x64\Debug\08.DoubleBuffer_pattern.exe
                    조건이 잘못되어 "VCMessage" 작업을 건너뜁니다. ('@(_OutputFileFromLink)' == '')이(가) ('C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\x64\Debug\08.DoubleBuffer_pattern.exe' == '')(으)로 확인되었습니다.
                    조건이 잘못되어 "VCMessage" 작업을 건너뜁니다. ('@(_OutputFileFromLink)' != '' and '%(_OutputFileFromLink.FullPath)' != '$([System.IO.Path]::GetFullPath($(TargetPath)))')이(가) ('C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\x64\Debug\08.DoubleBuffer_pattern.exe' != '' and 'C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\x64\Debug\08.DoubleBuffer_pattern.exe' != 'C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\x64\Debug\08.DoubleBuffer_pattern.exe')(으)로 확인되었습니다.
                    조건이 잘못되어 "VCMessage" 작업을 건너뜁니다. ('@(_OutputFileFromLink)' != '' and '%(_OutputFileFromLink.Extension)' != '' and '%(_OutputFileFromLink.Extension)' != '$(TargetExt)')이(가) ('C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\x64\Debug\08.DoubleBuffer_pattern.exe' != '' and '.exe' != '' and '.exe' != '.exe')(으)로 확인되었습니다.
                    조건이 잘못되어 "VCMessage" 작업을 건너뜁니다. ('@(_OutputFileFromLink)' != '' and '%(_OutputFileFromLink.Filename)' != '' and '%(_OutputFileFromLink.Filename)' != '$(TargetName)')이(가) ('C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\x64\Debug\08.DoubleBuffer_pattern.exe' != '' and '08.DoubleBuffer_pattern' != '' and '08.DoubleBuffer_pattern' != '08.DoubleBuffer_pattern')(으)로 확인되었습니다.
                    조건이 잘못되어 "VCMessage" 작업을 건너뜁니다. ('%(Link.MinimumRequiredVersion)' != '' and ('%(Link.Subsystem)' == '' or '%(Link.Subsystem)' == 'NotSet'))이(가) ('' != '' and ('Console' == '' or 'Console' == 'NotSet'))(으)로 확인되었습니다.
-14:05:42.821     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "DoLinkOutputFilesMatch" 대상을 빌드했습니다.: (대상 ID:79)
-14:05:42.821     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets" 파일에 있는 "PreLinkEvent: (대상 ID:80)" 대상("_Link" 대상이 종속됨):
+15:29:51.865     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "DoLinkOutputFilesMatch" 대상을 빌드했습니다.: (대상 ID:79)
+15:29:51.865     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets" 파일에 있는 "PreLinkEvent: (대상 ID:80)" 대상("_Link" 대상이 종속됨):
                    조건이 잘못되어 "Message" 작업을 건너뜁니다. ('%(PreLinkEvent.Message)' != '' and '%(PreLinkEvent.Command)' != '')이(가) ('' != '' and '' != '')(으)로 확인되었습니다.
                    조건이 잘못되어 "Exec" 작업을 건너뜁니다. ('%(PreLinkEvent.Command)' != '')이(가) ('' != '')(으)로 확인되었습니다.
-14:05:42.821     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "PreLinkEvent" 대상을 빌드했습니다.: (대상 ID:80)
-14:05:42.821     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets" 파일에 있는 "ComputeLinkSwitches: (대상 ID:81)" 대상("Link" 대상이 종속됨):
+15:29:51.865     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "PreLinkEvent" 대상을 빌드했습니다.: (대상 ID:80)
+15:29:51.865     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets" 파일에 있는 "ComputeLinkSwitches: (대상 ID:81)" 대상("Link" 대상이 종속됨):
                    설정 속성: Link_MinimalRebuildFromTracking=true
                    설정 속성: LinkToolArchitecture=Native32Bit
                    설정 속성: _GenerateWindowsMetadata=
-14:05:42.821     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "ComputeLinkSwitches" 대상을 빌드했습니다.: (대상 ID:81)
-14:05:42.821     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets" 파일에 있는 "Link: (대상 ID:82)" 대상("_Link" 대상이 종속됨):
+15:29:51.866     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "ComputeLinkSwitches" 대상을 빌드했습니다.: (대상 ID:81)
+15:29:51.866     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets" 파일에 있는 "Link: (대상 ID:82)" 대상("_Link" 대상이 종속됨):
                    "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.Build.CppTasks.Common.dll" 어셈블리에서 "Link" 작업을 사용합니다.
                    "Link" 작업(작업 ID:36)
                      작업 매개 변수:OutputFile=C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\x64\Debug\08.DoubleBuffer_pattern.exe(작업 ID:36)
@@ -3962,11 +3977,43 @@
                      작업 매개 변수:ManifestEmbed=True(작업 ID:36)
                      작업 매개 변수:IgnoreEmbeddedIDL=False(작업 ID:36)
                      작업 매개 변수:TypeLibraryResourceID=1(작업 ID:36)
+                     쓰기 추적 로그:(작업 ID:36)
+                     	x64\Debug\08.Doubl.4d3e9a93.tlog\link.write.1.tlog(작업 ID:36)
+                     읽기 추적 로그:(작업 ID:36)
+                     	x64\Debug\08.Doubl.4d3e9a93.tlog\link.read.1.tlog(작업 ID:36)
+                     C:\USERS\GUSDN6763\SOURCE\REPOS\GAMEPROGRAMMING_PATTERN\DOUBLEBUFFER_PATTERN\X64\DEBUG\MAIN.OBJ에 대한 출력:(작업 ID:36)
+                     	C:\USERS\GUSDN6763\SOURCE\REPOS\GAMEPROGRAMMING_PATTERN\DOUBLEBUFFER_PATTERN\X64\DEBUG\08.DOUBLEBUFFER_PATTERN.ILK(작업 ID:36)
+                     	C:\USERS\GUSDN6763\SOURCE\REPOS\GAMEPROGRAMMING_PATTERN\X64\DEBUG\08.DOUBLEBUFFER_PATTERN.EXE(작업 ID:36)
+                     	C:\USERS\GUSDN6763\SOURCE\REPOS\GAMEPROGRAMMING_PATTERN\X64\DEBUG\08.DOUBLEBUFFER_PATTERN.PDB(작업 ID:36)
+                     C:\USERS\GUSDN6763\SOURCE\REPOS\GAMEPROGRAMMING_PATTERN\DOUBLEBUFFER_PATTERN\X64\DEBUG\MAIN.OBJ에 대한 입력 내용:(작업 ID:36)
+                     	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.19041.0\UM\X64\KERNEL32.LIB(작업 ID:36)
+                     	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.19041.0\UM\X64\USER32.LIB(작업 ID:36)
+                     	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.19041.0\UM\X64\GDI32.LIB(작업 ID:36)
+                     	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.19041.0\UM\X64\WINSPOOL.LIB(작업 ID:36)
+                     	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.19041.0\UM\X64\COMDLG32.LIB(작업 ID:36)
+                     	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.19041.0\UM\X64\ADVAPI32.LIB(작업 ID:36)
+                     	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.19041.0\UM\X64\SHELL32.LIB(작업 ID:36)
+                     	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.19041.0\UM\X64\OLE32.LIB(작업 ID:36)
+                     	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.19041.0\UM\X64\OLEAUT32.LIB(작업 ID:36)
+                     	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.19041.0\UM\X64\UUID.LIB(작업 ID:36)
+                     	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.19041.0\UM\X64\ODBC32.LIB(작업 ID:36)
+                     	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.19041.0\UM\X64\ODBCCP32.LIB(작업 ID:36)
+                     	C:\USERS\GUSDN6763\SOURCE\REPOS\GAMEPROGRAMMING_PATTERN\DOUBLEBUFFER_PATTERN\X64\DEBUG\MAIN.OBJ(작업 ID:36)
+                     	C:\WINDOWS\GLOBALIZATION\SORTING\SORTDEFAULT.NLS(작업 ID:36)
+                     	C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2019\PROFESSIONAL\VC\TOOLS\MSVC\14.29.30133\LIB\X64\MSVCPRTD.LIB(작업 ID:36)
+                     	C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2019\PROFESSIONAL\VC\TOOLS\MSVC\14.29.30133\LIB\X64\MSVCRTD.LIB(작업 ID:36)
+                     	C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2019\PROFESSIONAL\VC\TOOLS\MSVC\14.29.30133\LIB\X64\OLDNAMES.LIB(작업 ID:36)
+                     	C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2019\PROFESSIONAL\VC\TOOLS\MSVC\14.29.30133\LIB\X64\VCRUNTIMED.LIB(작업 ID:36)
+                     	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.19041.0\UCRT\X64\UCRTD.LIB(작업 ID:36)
+                     	C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2019\PROFESSIONAL\VC\TOOLS\MSVC\14.29.30133\BIN\HOSTX86\X64\CVTRES.EXE(작업 ID:36)
+                     	C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2019\PROFESSIONAL\VC\TOOLS\MSVC\14.29.30133\BIN\HOSTX86\X64\MSPDBSRV.EXE(작업 ID:36)
+                     	C:\WINDOWS\SYSTEM32\TZRES.DLL(작업 ID:36)
+                     소스를 컴파일해야 합니다. 입력 내용 C:\USERS\GUSDN6763\SOURCE\REPOS\GAMEPROGRAMMING_PATTERN\DOUBLEBUFFER_PATTERN\X64\DEBUG\MAIN.OBJ이(가) 출력 내용 C:\USERS\GUSDN6763\SOURCE\REPOS\GAMEPROGRAMMING_PATTERN\X64\DEBUG\08.DOUBLEBUFFER_PATTERN.EXE보다 최신입니다.(작업 ID:36)
                      도구로 전달된 환경 변수:(작업 ID:36)
-                       VS_UNICODE_OUTPUT=1824(작업 ID:36)
+                       VS_UNICODE_OUTPUT=2012(작업 ID:36)
                      C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\bin\HostX86\x64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\x64\Debug\08.DoubleBuffer_pattern.exe" /INCREMENTAL /ILK:"x64\Debug\08.DoubleBuffer_pattern.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\x64\Debug\08.DoubleBuffer_pattern.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\x64\Debug\08.DoubleBuffer_pattern.lib" /MACHINE:X64 x64\Debug\main.obj(작업 ID:36)
                      추적 명령:(작업 ID:36)
-                     C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\Tracker.exe /a /d "C:\Program Files (x86)\MSBuild\15.0\FileTracker\FileTracker32.dll" /i C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\x64\Debug\08.Doubl.4d3e9a93.tlog /r C:\USERS\GUSDN6763\SOURCE\REPOS\GAMEPROGRAMMING_PATTERN\DOUBLEBUFFER_PATTERN\X64\DEBUG\MAIN.OBJ /b MSBuildConsole_CancelEvent6a1fdf4d9dfb482f896cc7d29c08ccfb  /c "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\bin\HostX86\x64\link.exe"  /ERRORREPORT:PROMPT /OUT:"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\x64\Debug\08.DoubleBuffer_pattern.exe" /INCREMENTAL /ILK:"x64\Debug\08.DoubleBuffer_pattern.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\x64\Debug\08.DoubleBuffer_pattern.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\x64\Debug\08.DoubleBuffer_pattern.lib" /MACHINE:X64 x64\Debug\main.obj(작업 ID:36)
+                     C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\Tracker.exe /a /d "C:\Program Files (x86)\MSBuild\15.0\FileTracker\FileTracker32.dll" /i C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\x64\Debug\08.Doubl.4d3e9a93.tlog /r C:\USERS\GUSDN6763\SOURCE\REPOS\GAMEPROGRAMMING_PATTERN\DOUBLEBUFFER_PATTERN\X64\DEBUG\MAIN.OBJ /b MSBuildConsole_CancelEvente5232c41646b4adfbf17486e0aedd200  /c "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\bin\HostX86\x64\link.exe"  /ERRORREPORT:PROMPT /OUT:"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\x64\Debug\08.DoubleBuffer_pattern.exe" /INCREMENTAL /ILK:"x64\Debug\08.DoubleBuffer_pattern.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\x64\Debug\08.DoubleBuffer_pattern.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\x64\Debug\08.DoubleBuffer_pattern.lib" /MACHINE:X64 x64\Debug\main.obj(작업 ID:36)
                      출력 속성: LinkSkippedExecution=False(작업 ID:36)
                    "Link" 작업을 실행했습니다.(작업 ID:36)
                    "Message" 작업(작업 ID:37)
@@ -3980,36 +4027,36 @@
                    조건이 잘못되어 "VCMessage" 작업을 건너뜁니다. (('$(EmbedManifestBy)' != 'LINK' or '$(LegacyManifestEmbedding)' != 'true' or '$(LinkSkippedExecution)' == 'true') and
                                 %(Link.GenerateDebugInformation) == 'true' and %(Link.ProgramDataBaseFileName) != '')이(가) (('LINK' != 'LINK' or '' != 'true' or 'False' == 'true') and
                                 true == 'true' and  != '')(으)로 확인되었습니다.
-14:05:43.414     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "Link" 대상을 빌드했습니다.: (대상 ID:82)
+15:29:52.034     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "Link" 대상을 빌드했습니다.: (대상 ID:82)
                    조건이 잘못되어 "MetaGenInputsOutputs" 대상을 건너뜁니다. ('$(EnableManagedIncrementalBuild)' == 'True')이(가) ('false' == 'True')(으)로 확인되었습니다.
                    조건이 잘못되어 "ComputeMetaGenInputs" 대상을 건너뜁니다. ('$(CLRSupport)'!='' and '$(CLRSupport)'!='false' and '$(CLRSupport)'!='NetCore')이(가) ('false'!='' and 'false'!='false' and 'false'!='NetCore')(으)로 확인되었습니다.
                    조건이 잘못되어 "MetaGen" 대상을 건너뜁니다. ('@(MetaGen)' != '')이(가) ('' != '')(으)로 확인되었습니다.
-14:05:43.414     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" 파일에 있는 "ComputeLinkImportLibraryOutputsForClean: (대상 ID:83)" 대상("_Link" 대상이 종속됨):
+15:29:52.034     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" 파일에 있는 "ComputeLinkImportLibraryOutputsForClean: (대상 ID:83)" 대상("_Link" 대상이 종속됨):
                    조건이 잘못되어 "WriteLinesToFile" 작업을 건너뜁니다. ('@(_LinkSecondaryOutput)' != '')이(가) ('' != '')(으)로 확인되었습니다.
-14:05:43.415     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "ComputeLinkImportLibraryOutputsForClean" 대상을 빌드했습니다.: (대상 ID:83)
-14:05:43.415     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" 파일에 있는 "AfterLink: (대상 ID:84)" 대상("_Link" 대상이 종속됨):
-14:05:43.415     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "AfterLink" 대상을 빌드했습니다.: (대상 ID:84)
-14:05:43.415     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" 파일에 있는 "_Link: (대상 ID:85)" 대상("_BuildLinkAction" 대상이 종속됨):
-14:05:43.415     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "_Link" 대상을 빌드했습니다.: (대상 ID:85)
-14:05:43.415     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" 파일에 있는 "_ALink: (대상 ID:86)" 대상("_BuildLinkAction" 대상이 종속됨):
-14:05:43.415     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "_ALink" 대상을 빌드했습니다.: (대상 ID:86)
+15:29:52.034     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "ComputeLinkImportLibraryOutputsForClean" 대상을 빌드했습니다.: (대상 ID:83)
+15:29:52.034     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" 파일에 있는 "AfterLink: (대상 ID:84)" 대상("_Link" 대상이 종속됨):
+15:29:52.034     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "AfterLink" 대상을 빌드했습니다.: (대상 ID:84)
+15:29:52.034     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" 파일에 있는 "_Link: (대상 ID:85)" 대상("_BuildLinkAction" 대상이 종속됨):
+15:29:52.034     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "_Link" 대상을 빌드했습니다.: (대상 ID:85)
+15:29:52.034     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" 파일에 있는 "_ALink: (대상 ID:86)" 대상("_BuildLinkAction" 대상이 종속됨):
+15:29:52.034     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "_ALink" 대상을 빌드했습니다.: (대상 ID:86)
                    "ComputeLegacyManifestEmbedding" 대상을 건너뜁니다. 이전에 빌드되었습니다.
-14:05:43.415     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" 파일에 있는 "_Manifest: (대상 ID:87)" 대상("_BuildLinkAction" 대상이 종속됨):
+15:29:52.034     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" 파일에 있는 "_Manifest: (대상 ID:87)" 대상("_BuildLinkAction" 대상이 종속됨):
                    조건이 잘못되어 "CallTarget" 작업을 건너뜁니다. ('$(LegacyManifestEmbedding)' == 'true')이(가) ('' == 'true')(으)로 확인되었습니다.
-14:05:43.415     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "_Manifest" 대상을 빌드했습니다.: (대상 ID:87)
-14:05:43.415     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets" 파일에 있는 "RegisterOutput: (대상 ID:88)" 대상("_BuildLinkAction" 대상이 종속됨):
+15:29:52.034     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "_Manifest" 대상을 빌드했습니다.: (대상 ID:87)
+15:29:52.034     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets" 파일에 있는 "RegisterOutput: (대상 ID:88)" 대상("_BuildLinkAction" 대상이 종속됨):
                    조건이 잘못되어 "Exec" 작업을 건너뜁니다. ('$(ConfigurationType)'=='DynamicLibrary' and '%(Link.RegisterOutput)'=='true' and '%(Link.PerUserRedirection)'!='true')이(가) ('Application'=='DynamicLibrary' and 'false'=='true' and 'false'!='true')(으)로 확인되었습니다.
                    조건이 잘못되어 "Exec" 작업을 건너뜁니다. ('$(ConfigurationType)'=='DynamicLibrary' and '%(Link.RegisterOutput)'=='true' and '%(Link.PerUserRedirection)'=='true')이(가) ('Application'=='DynamicLibrary' and 'false'=='true' and 'false'=='true')(으)로 확인되었습니다.
                    조건이 잘못되어 "Exec" 작업을 건너뜁니다. ('$(ConfigurationType)'=='Application' and '%(Link.RegisterOutput)'=='true' and '%(Link.PerUserRedirection)'!='true')이(가) ('Application'=='Application' and 'false'=='true' and 'false'!='true')(으)로 확인되었습니다.
                    조건이 잘못되어 "Exec" 작업을 건너뜁니다. ('$(ConfigurationType)'=='Application' and '%(Link.RegisterOutput)'=='true' and '%(Link.PerUserRedirection)'=='true')이(가) ('Application'=='Application' and 'false'=='true' and 'false'=='true')(으)로 확인되었습니다.
                    조건이 잘못되어 "VCMessage" 작업을 건너뜁니다. ('$(_RegisterOutputExitCode)' != '' and '$(_RegisterOutputExitCode)' != '0')이(가) ('' != '' and '' != '0')(으)로 확인되었습니다.
-14:05:43.415     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "RegisterOutput" 대상을 빌드했습니다.: (대상 ID:88)
+15:29:52.034     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "RegisterOutput" 대상을 빌드했습니다.: (대상 ID:88)
                    "PrepareForBuild" 대상을 건너뜁니다. 이전에 빌드되었습니다.
                    "ResolveReferences" 대상을 건너뜁니다. 이전에 빌드되었습니다.
-14:05:43.415     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" 파일에 있는 "ResolvedXDCMake: (대상 ID:89)" 대상("_XdcMake" 대상이 종속됨):
+15:29:52.034     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" 파일에 있는 "ResolvedXDCMake: (대상 ID:89)" 대상("_XdcMake" 대상이 종속됨):
                    조건이 잘못되어 "MSBuild" 작업을 건너뜁니다. ('%(_MSBuildProjectReferenceExistent.Extension)' == '.vcxproj' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != '' and '$(_ClCompileGenerateXMLDocumentationFiles)' == 'true')이(가) ('' == '.vcxproj' and '' != '' and '' != '' and '' == 'true')(으)로 확인되었습니다.
-14:05:43.415     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "ResolvedXDCMake" 대상을 빌드했습니다.: (대상 ID:89)
-14:05:43.415     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" 파일에 있는 "ComputeCLCompileGeneratedXDCFiles: (대상 ID:90)" 대상("_XdcMake" 대상이 종속됨):
+15:29:52.034     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "ResolvedXDCMake" 대상을 빌드했습니다.: (대상 ID:89)
+15:29:52.034     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" 파일에 있는 "ComputeCLCompileGeneratedXDCFiles: (대상 ID:90)" 대상("_XdcMake" 대상이 종속됨):
                    추가된 항목: 
                        XdcMake=
                            temp
@@ -4032,26 +4079,26 @@
                                    OutputFile=C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\x64\Debug\08.DoubleBuffer_pattern.xml
                                    SuppressStartupBanner=true
                                    TrackerLogDirectory=x64\Debug\08.Doubl.4d3e9a93.tlog\
-14:05:43.415     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "ComputeCLCompileGeneratedXDCFiles" 대상을 빌드했습니다.: (대상 ID:90)
-14:05:43.415     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" 파일에 있는 "MakeDirsForXdcMake: (대상 ID:91)" 대상("_XdcMake" 대상이 종속됨):
+15:29:52.034     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "ComputeCLCompileGeneratedXDCFiles" 대상을 빌드했습니다.: (대상 ID:90)
+15:29:52.035     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" 파일에 있는 "MakeDirsForXdcMake: (대상 ID:91)" 대상("_XdcMake" 대상이 종속됨):
                    "MakeDir" 작업(작업 ID:38)
                    "MakeDir" 작업을 실행했습니다.(작업 ID:38)
-14:05:43.416     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "MakeDirsForXdcMake" 대상을 빌드했습니다.: (대상 ID:91)
+15:29:52.035     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "MakeDirsForXdcMake" 대상을 빌드했습니다.: (대상 ID:91)
                    조건이 잘못되어 "XdcMake" 대상을 건너뜁니다. ('@(XdcMake)' != '')이(가) ('' != '')(으)로 확인되었습니다.
-14:05:43.416     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" 파일에 있는 "_XdcMake: (대상 ID:92)" 대상("_BuildLinkAction" 대상이 종속됨):
-14:05:43.416     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "_XdcMake" 대상을 빌드했습니다.: (대상 ID:92)
-14:05:43.416     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" 파일에 있는 "ComputeCLCompileGeneratedSbrFiles: (대상 ID:93)" 대상("_BscMake" 대상이 종속됨):
-14:05:43.416     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "ComputeCLCompileGeneratedSbrFiles" 대상을 빌드했습니다.: (대상 ID:93)
-14:05:43.416     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" 파일에 있는 "MakeDirsForBscMake: (대상 ID:94)" 대상("_BscMake" 대상이 종속됨):
+15:29:52.035     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" 파일에 있는 "_XdcMake: (대상 ID:92)" 대상("_BuildLinkAction" 대상이 종속됨):
+15:29:52.035     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "_XdcMake" 대상을 빌드했습니다.: (대상 ID:92)
+15:29:52.035     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" 파일에 있는 "ComputeCLCompileGeneratedSbrFiles: (대상 ID:93)" 대상("_BscMake" 대상이 종속됨):
+15:29:52.035     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "ComputeCLCompileGeneratedSbrFiles" 대상을 빌드했습니다.: (대상 ID:93)
+15:29:52.035     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" 파일에 있는 "MakeDirsForBscMake: (대상 ID:94)" 대상("_BscMake" 대상이 종속됨):
                    "MakeDir" 작업(작업 ID:39)
                    "MakeDir" 작업을 실행했습니다.(작업 ID:39)
-14:05:43.416     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "MakeDirsForBscMake" 대상을 빌드했습니다.: (대상 ID:94)
+15:29:52.035     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "MakeDirsForBscMake" 대상을 빌드했습니다.: (대상 ID:94)
                    조건이 잘못되어 "BscMake" 대상을 건너뜁니다. ('@(BscMake)' != '')이(가) ('' != '')(으)로 확인되었습니다.
                    조건이 잘못되어 "CustomBuildStep" 대상을 건너뜁니다. ('@(CustomBuildStep)' != '' and '$(SelectedFiles)'=='')이(가) ('' != '' and ''=='')(으)로 확인되었습니다.
-14:05:43.416     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" 파일에 있는 "_BscMake: (대상 ID:95)" 대상("_BuildLinkAction" 대상이 종속됨):
-14:05:43.416     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "_BscMake" 대상을 빌드했습니다.: (대상 ID:95)
+15:29:52.035     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" 파일에 있는 "_BscMake: (대상 ID:95)" 대상("_BuildLinkAction" 대상이 종속됨):
+15:29:52.035     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "_BscMake" 대상을 빌드했습니다.: (대상 ID:95)
                    "PrepareForBuild" 대상을 건너뜁니다. 이전에 빌드되었습니다.
-14:05:43.416     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" 파일에 있는 "BuiltProjectOutputGroup: (대상 ID:96)" 대상("CreateRecipeFile" 대상이 종속됨):
+15:29:52.035     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" 파일에 있는 "BuiltProjectOutputGroup: (대상 ID:96)" 대상("CreateRecipeFile" 대상이 종속됨):
                    추가된 항목: 
                        _BuiltProjectOutputGroupOutputIntermediate=
                            C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\x64\Debug\08.DoubleBuffer_pattern.exe
@@ -4061,9 +4108,9 @@
                            C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\x64\Debug\08.DoubleBuffer_pattern.exe
                                    FinalOutputPath=C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\x64\Debug\08.DoubleBuffer_pattern.exe
                                    OriginalItemSpec=C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\x64\Debug\08.DoubleBuffer_pattern.exe
-14:05:43.416     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "BuiltProjectOutputGroup" 대상을 빌드했습니다.: (대상 ID:96)
+15:29:52.035     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "BuiltProjectOutputGroup" 대상을 빌드했습니다.: (대상 ID:96)
                    "PrepareResourceNames" 대상을 건너뜁니다. 이전에 빌드되었습니다.
-14:05:43.416     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets" 파일에 있는 "SatelliteDllsProjectOutputGroup: (대상 ID:97)" 대상("CreateRecipeFile" 대상이 종속됨):
+15:29:52.035     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets" 파일에 있는 "SatelliteDllsProjectOutputGroup: (대상 ID:97)" 대상("CreateRecipeFile" 대상이 종속됨):
                    조건이 잘못되어 "CreateItem" 작업을 건너뜁니다. ('@(ResxWithCulture)' != '')이(가) ('' != '')(으)로 확인되었습니다.
                    조건이 잘못되어 "CreateItem" 작업을 건너뜁니다. ('$(UICulture)' != '')이(가) ('' != '')(으)로 확인되었습니다.
                    조건이 잘못되어 "CreateItem" 작업을 건너뜁니다. ('@(NonResxWithCulture)' != '')이(가) ('' != '')(으)로 확인되었습니다.
@@ -4074,22 +4121,22 @@
                    "CreateItem" 작업을 실행했습니다.(작업 ID:40)
                    "CreateItem" 작업(작업 ID:41)
                    "CreateItem" 작업을 실행했습니다.(작업 ID:41)
-14:05:43.418     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "SatelliteDllsProjectOutputGroup" 대상을 빌드했습니다.: (대상 ID:97)
+15:29:52.035     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "SatelliteDllsProjectOutputGroup" 대상을 빌드했습니다.: (대상 ID:97)
                    "PrepareForBuild" 대상을 건너뜁니다. 이전에 빌드되었습니다.
                    "AssignTargetPaths" 대상을 건너뜁니다. 이전에 빌드되었습니다.
                    "PrepareForBuild" 대상을 건너뜁니다. 이전에 빌드되었습니다.
                    "AssignTargetPaths" 대상을 건너뜁니다. 이전에 빌드되었습니다.
-14:05:43.418     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" 파일에 있는 "MakeDirsForFxc: (대상 ID:98)" 대상("ContentFilesProjectOutputGroup" 대상이 종속됨):
+15:29:52.035     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" 파일에 있는 "MakeDirsForFxc: (대상 ID:98)" 대상("ContentFilesProjectOutputGroup" 대상이 종속됨):
                    "MakeDir" 작업(작업 ID:42)
                    "MakeDir" 작업을 실행했습니다.(작업 ID:42)
-14:05:43.419     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "MakeDirsForFxc" 대상을 빌드했습니다.: (대상 ID:98)
+15:29:52.035     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "MakeDirsForFxc" 대상을 빌드했습니다.: (대상 ID:98)
                    조건이 잘못되어 "_CreateCopyFileItems" 대상을 건너뜁니다. ('@(CopyFileToFolders)' != '')이(가) ('' != '')(으)로 확인되었습니다.
-14:05:43.419     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" 파일에 있는 "ContentFilesProjectOutputGroup: (대상 ID:99)" 대상("CreateRecipeFile" 대상이 종속됨):
+15:29:52.035     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" 파일에 있는 "ContentFilesProjectOutputGroup: (대상 ID:99)" 대상("CreateRecipeFile" 대상이 종속됨):
                    조건이 잘못되어 "AssignTargetPath" 작업을 건너뜁니다. ('@(ContentFilesProjectOutputGroupOutputFullPath)' != '' and '%(ContentFilesProjectOutputGroupOutputFullPath.RootFolder)' != '')이(가) ('' != '' and '' != '')(으)로 확인되었습니다.
                    조건이 잘못되어 "AssignTargetPath" 작업을 건너뜁니다. ('@(ContentFilesProjectOutputGroupOutputFullPath)' != '' and '%(ContentFilesProjectOutputGroupOutputFullPath.RootFolder)' == '')이(가) ('' != '' and '' == '')(으)로 확인되었습니다.
-14:05:43.419     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "ContentFilesProjectOutputGroup" 대상을 빌드했습니다.: (대상 ID:99)
+15:29:52.036     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "ContentFilesProjectOutputGroup" 대상을 빌드했습니다.: (대상 ID:99)
                    "GetReferencedVCProjectsInfo" 대상을 건너뜁니다. 이전에 빌드되었습니다.
-14:05:43.419     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" 파일에 있는 "CreateRecipeFile: (대상 ID:100)" 대상("_BuildLinkAction" 대상이 종속됨):
+15:29:52.036     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" 파일에 있는 "CreateRecipeFile: (대상 ID:100)" 대상("_BuildLinkAction" 대상이 종속됨):
                    "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.Build.CppTasks.Common.dll" 어셈블리에서 "GenerateDesktopDeployRecipe" 작업을 사용합니다.
                    "GenerateDesktopDeployRecipe" 작업(작업 ID:43)
                      작업 매개 변수:
@@ -4100,70 +4147,70 @@
                      작업 매개 변수:OutputFile=C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\x64\Debug\08.DoubleBuffer_pattern.exe.recipe(작업 ID:43)
                      작업 매개 변수:ProjectDir=C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\(작업 ID:43)
                    "GenerateDesktopDeployRecipe" 작업을 실행했습니다.(작업 ID:43)
-14:05:43.435     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "CreateRecipeFile" 대상을 빌드했습니다.: (대상 ID:100)
-14:05:43.435     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" 파일에 있는 "_GenerateSatelliteAssemblyInputs: (대상 ID:101)" 대상("CreateSatelliteAssemblies" 대상이 종속됨):
+15:29:52.036     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "CreateRecipeFile" 대상을 빌드했습니다.: (대상 ID:100)
+15:29:52.037     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" 파일에 있는 "_GenerateSatelliteAssemblyInputs: (대상 ID:101)" 대상("CreateSatelliteAssemblies" 대상이 종속됨):
                    조건이 잘못되어 "Warning" 작업을 건너뜁니다. ('@(ManifestResourceWithCulture)'!='' and '%(ManifestResourceWithCulture.EmittedForCompatibilityOnly)'=='')이(가) (''!='' and ''=='')(으)로 확인되었습니다.
                    조건이 잘못되어 "Warning" 작업을 건너뜁니다. ('@(ManifestNonResxWithCultureOnDisk)'!='' and '%(ManifestNonResxWithCultureOnDisk.EmittedForCompatibilityOnly)'=='')이(가) (''!='' and ''=='')(으)로 확인되었습니다.
-14:05:43.435     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "_GenerateSatelliteAssemblyInputs" 대상을 빌드했습니다.: (대상 ID:101)
+15:29:52.037     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "_GenerateSatelliteAssemblyInputs" 대상을 빌드했습니다.: (대상 ID:101)
                    조건이 잘못되어 "ComputeIntermediateSatelliteAssemblies" 대상을 건너뜁니다. (@(ReferenceSatellitePaths->'%(DestinationSubDirectory)') != '')이(가) ( != '')(으)로 확인되었습니다.
                    조건이 잘못되어 "GenerateSatelliteAssemblies" 대상을 건너뜁니다. ('@(_SatelliteAssemblyResourceInputs)' != '')이(가) ('' != '')(으)로 확인되었습니다.
-14:05:43.436     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" 파일에 있는 "CreateSatelliteAssemblies: (대상 ID:102)" 대상("_BuildLinkAction" 대상이 종속됨):
-14:05:43.436     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "CreateSatelliteAssemblies" 대상을 빌드했습니다.: (대상 ID:102)
+15:29:52.037     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" 파일에 있는 "CreateSatelliteAssemblies: (대상 ID:102)" 대상("_BuildLinkAction" 대상이 종속됨):
+15:29:52.037     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "CreateSatelliteAssemblies" 대상을 빌드했습니다.: (대상 ID:102)
                    조건이 잘못되어 "CopyLocalNativeReference" 대상을 건너뜁니다. ('$(CopyLocalProjectReference)' == 'true')이(가) ('false' == 'true')(으)로 확인되었습니다.
-14:05:43.436     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" 파일에 있는 "_Appverifier: (대상 ID:103)" 대상("_BuildLinkAction" 대상이 종속됨):
-14:05:43.436     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "_Appverifier" 대상을 빌드했습니다.: (대상 ID:103)
-14:05:43.436     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" 파일에 있는 "_Deploy: (대상 ID:104)" 대상("_BuildLinkAction" 대상이 종속됨):
-14:05:43.436     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "_Deploy" 대상을 빌드했습니다.: (대상 ID:104)
+15:29:52.037     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" 파일에 있는 "_Appverifier: (대상 ID:103)" 대상("_BuildLinkAction" 대상이 종속됨):
+15:29:52.037     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "_Appverifier" 대상을 빌드했습니다.: (대상 ID:103)
+15:29:52.037     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" 파일에 있는 "_Deploy: (대상 ID:104)" 대상("_BuildLinkAction" 대상이 종속됨):
+15:29:52.037     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "_Deploy" 대상을 빌드했습니다.: (대상 ID:104)
                    조건이 잘못되어 "ComputeIntermediateSatelliteAssemblies" 대상을 건너뜁니다. (@(ReferenceSatellitePaths->'%(DestinationSubDirectory)') != '')이(가) ( != '')(으)로 확인되었습니다.
                    조건이 잘못되어 "_CopyFilesMarkedCopyLocal" 대상을 건너뜁니다. ('@(ReferenceCopyLocalPaths)' != '')이(가) ('' != '')(으)로 확인되었습니다.
                    "AssignTargetPaths" 대상을 건너뜁니다. 이전에 빌드되었습니다.
                    "_SplitProjectReferencesByFileExistence" 대상을 건너뜁니다. 이전에 빌드되었습니다.
                    "_GetProjectReferenceTargetFrameworkProperties" 대상을 건너뜁니다. 이전에 빌드되었습니다.
-14:05:43.436     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" 파일에 있는 "_PopulateCommonStateForGetCopyToOutputDirectoryItems: (대상 ID:105)" 대상("GetCopyToOutputDirectoryItems" 대상이 종속됨):
+15:29:52.037     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" 파일에 있는 "_PopulateCommonStateForGetCopyToOutputDirectoryItems: (대상 ID:105)" 대상("GetCopyToOutputDirectoryItems" 대상이 종속됨):
                    설정 속성: _GCTODIKeepDuplicates=false
                    설정 속성: _GCTODIKeepMetadata=CopyToOutputDirectory;TargetPath
-14:05:43.436     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "_PopulateCommonStateForGetCopyToOutputDirectoryItems" 대상을 빌드했습니다.: (대상 ID:105)
-14:05:43.436     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Xaml.targets" 파일에 있는 "GetCopyToOutputDirectoryXamlAppDefs: (대상 ID:106)" 대상("GetCopyToOutputDirectoryItems" 대상이 종속됨):
+15:29:52.037     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "_PopulateCommonStateForGetCopyToOutputDirectoryItems" 대상을 빌드했습니다.: (대상 ID:105)
+15:29:52.037     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Xaml.targets" 파일에 있는 "GetCopyToOutputDirectoryXamlAppDefs: (대상 ID:106)" 대상("GetCopyToOutputDirectoryItems" 대상이 종속됨):
                    "AssignTargetPath" 작업(작업 ID:44)
                      작업 매개 변수:RootFolder=C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern(작업 ID:44)
                    "AssignTargetPath" 작업을 실행했습니다.(작업 ID:44)
-14:05:43.436     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "GetCopyToOutputDirectoryXamlAppDefs" 대상을 빌드했습니다.: (대상 ID:106)
-14:05:43.436     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" 파일에 있는 "GetCopyToOutputDirectoryItems: (대상 ID:107)" 대상("_CopySourceItemsToOutputDirectory" 대상이 종속됨):
+15:29:52.037     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "GetCopyToOutputDirectoryXamlAppDefs" 대상을 빌드했습니다.: (대상 ID:106)
+15:29:52.037     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" 파일에 있는 "GetCopyToOutputDirectoryItems: (대상 ID:107)" 대상("_CopySourceItemsToOutputDirectory" 대상이 종속됨):
                    "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" 어셈블리에서 "CallTarget" 작업을 사용합니다.
                    "CallTarget" 작업(작업 ID:45)
                      작업 매개 변수:Targets=_GetCopyToOutputDirectoryItemsFromTransitiveProjectReferences(작업 ID:45)
                    "_PopulateCommonStateForGetCopyToOutputDirectoryItems" 대상을 건너뜁니다. 이전에 빌드되었습니다.
                    "_AddOutputPathToGlobalPropertiesToRemove" 대상을 건너뜁니다. 이전에 빌드되었습니다.
-14:05:43.436     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" 파일에 있는 "_GetCopyToOutputDirectoryItemsFromTransitiveProjectReferences: (대상 ID:108)" 대상("GetCopyToOutputDirectoryItems" 대상이 종속됨):
+15:29:52.037     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" 파일에 있는 "_GetCopyToOutputDirectoryItemsFromTransitiveProjectReferences: (대상 ID:108)" 대상("GetCopyToOutputDirectoryItems" 대상이 종속됨):
                    조건이 잘못되어 "MSBuild" 작업을 건너뜁니다. ('@(_MSBuildProjectReferenceExistent)' != '' and '$(_GetChildProjectCopyToOutputDirectoryItems)' == 'true' and '%(_MSBuildProjectReferenceExistent.Private)' != 'false' and '$(UseCommonOutputDirectory)' != 'true')이(가) ('' != '' and 'true' == 'true' and '' != 'false' and 'false' != 'true')(으)로 확인되었습니다.
                    "AssignTargetPath" 작업(작업 ID:46)
                      작업 매개 변수:RootFolder=C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern(작업 ID:46)
                    "AssignTargetPath" 작업을 실행했습니다.(작업 ID:46)
-14:05:43.436     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "_GetCopyToOutputDirectoryItemsFromTransitiveProjectReferences" 대상을 빌드했습니다.: (대상 ID:108)
+15:29:52.037     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "_GetCopyToOutputDirectoryItemsFromTransitiveProjectReferences" 대상을 빌드했습니다.: (대상 ID:108)
                    "CallTarget" 작업을 실행했습니다.(작업 ID:45)
                    "CallTarget" 작업(작업 ID:47)
                      작업 매개 변수:Targets=_GetCopyToOutputDirectoryItemsFromThisProject(작업 ID:47)
                    "AssignTargetPaths" 대상을 건너뜁니다. 이전에 빌드되었습니다.
                    "_PopulateCommonStateForGetCopyToOutputDirectoryItems" 대상을 건너뜁니다. 이전에 빌드되었습니다.
-14:05:43.437     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" 파일에 있는 "_GetCopyToOutputDirectoryItemsFromThisProject: (대상 ID:109)" 대상("GetCopyToOutputDirectoryItems" 대상이 종속됨):
+15:29:52.038     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" 파일에 있는 "_GetCopyToOutputDirectoryItemsFromThisProject: (대상 ID:109)" 대상("GetCopyToOutputDirectoryItems" 대상이 종속됨):
                    "AssignTargetPath" 작업(작업 ID:48)
                      작업 매개 변수:RootFolder=C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern(작업 ID:48)
                    "AssignTargetPath" 작업을 실행했습니다.(작업 ID:48)
-14:05:43.437     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "_GetCopyToOutputDirectoryItemsFromThisProject" 대상을 빌드했습니다.: (대상 ID:109)
+15:29:52.038     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "_GetCopyToOutputDirectoryItemsFromThisProject" 대상을 빌드했습니다.: (대상 ID:109)
                    "CallTarget" 작업을 실행했습니다.(작업 ID:47)
-14:05:43.437     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "GetCopyToOutputDirectoryItems" 대상을 빌드했습니다.: (대상 ID:107)
+15:29:52.038     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "GetCopyToOutputDirectoryItems" 대상을 빌드했습니다.: (대상 ID:107)
                    조건이 잘못되어 "_CopyOutOfDateSourceItemsToOutputDirectory" 대상을 건너뜁니다. ( '@(_SourceItemsToCopyToOutputDirectory)' != '' )이(가) ( '' != '' )(으)로 확인되었습니다.
                    조건이 잘못되어 "_CopyOutOfDateSourceItemsToOutputDirectoryAlways" 대상을 건너뜁니다. ( '@(_SourceItemsToCopyToOutputDirectoryAlways)' != '' )이(가) ( '' != '' )(으)로 확인되었습니다.
-14:05:43.437     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" 파일에 있는 "_CopySourceItemsToOutputDirectory: (대상 ID:110)" 대상("CopyFilesToOutputDirectory" 대상이 종속됨):
-14:05:43.437     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "_CopySourceItemsToOutputDirectory" 대상을 빌드했습니다.: (대상 ID:110)
+15:29:52.038     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" 파일에 있는 "_CopySourceItemsToOutputDirectory: (대상 ID:110)" 대상("CopyFilesToOutputDirectory" 대상이 종속됨):
+15:29:52.038     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "_CopySourceItemsToOutputDirectory" 대상을 빌드했습니다.: (대상 ID:110)
                    조건이 잘못되어 "_CopyAppConfigFile" 대상을 건너뜁니다. ( '@(AppConfigWithTargetPath)' != '' )이(가) ( '' != '' )(으)로 확인되었습니다.
                    조건이 잘못되어 "_CopyManifestFiles" 대상을 건너뜁니다. ( '$(_DeploymentCopyApplicationManifest)'=='true' or '$(GenerateClickOnceManifests)'=='true' )이(가) ( ''=='true' or ''=='true' )(으)로 확인되었습니다.
-14:05:43.437     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" 파일에 있는 "_CheckForCompileOutputs: (대상 ID:111)" 대상("CopyFilesToOutputDirectory" 대상이 종속됨):
+15:29:52.038     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" 파일에 있는 "_CheckForCompileOutputs: (대상 ID:111)" 대상("CopyFilesToOutputDirectory" 대상이 종속됨):
                    설정 속성: _DocumentationFileProduced=false
                    설정 속성: _DebugSymbolsProduced=false
-14:05:43.437     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "_CheckForCompileOutputs" 대상을 빌드했습니다.: (대상 ID:111)
+15:29:52.038     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "_CheckForCompileOutputs" 대상을 빌드했습니다.: (대상 ID:111)
                    조건이 잘못되어 "_SGenCheckForOutputs" 대상을 건너뜁니다. ('$(_SGenGenerateSerializationAssembliesConfig)' == 'On' or ('@(WebReferenceUrl)'!='' and '$(_SGenGenerateSerializationAssembliesConfig)' == 'Auto'))이(가) ('Off' == 'On' or (''!='' and 'Off' == 'Auto'))(으)로 확인되었습니다.
-14:05:43.437     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" 파일에 있는 "CopyFilesToOutputDirectory: (대상 ID:112)" 대상("PrepareForRun" 대상이 종속됨):
+15:29:52.038     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" 파일에 있는 "CopyFilesToOutputDirectory: (대상 ID:112)" 대상("PrepareForRun" 대상이 종속됨):
                    설정 속성: CreateHardLinksForCopyFilesToOutputDirectoryIfPossible=false
                    설정 속성: CreateSymbolicLinksForCopyFilesToOutputDirectoryIfPossible=false
                    설정 속성: ErrorIfLinkFailsForCopyFilesToOutputDirectory=false
@@ -4181,23 +4228,23 @@
                    조건이 잘못되어 "Copy" 작업을 건너뜁니다. ('@(ReferenceComWrappersToCopyLocal)' != '' or '@(ResolvedIsolatedComModules)' != '' or '@(_DeploymentLooseManifestFile)' != '' or '@(NativeReferenceFile)' != '' )이(가) ('' != '' or '' != '' or '' != '' or '' != '' )(으)로 확인되었습니다.
                    조건이 잘못되어 "Copy" 작업을 건너뜁니다. ('$(SkipCopyWinMDArtifact)' != 'true' and '@(WinMDExpArtifacts)' != '')이(가) ('' != 'true' and '' != '')(으)로 확인되었습니다.
                    조건이 잘못되어 "Message" 작업을 건너뜁니다. ('$(SkipCopyWinMDArtifact)' != 'true' and '$(_WindowsMetadataOutputPath)' != '')이(가) ('' != 'true' and '' != '')(으)로 확인되었습니다.
-14:05:43.438     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "CopyFilesToOutputDirectory" 대상을 빌드했습니다.: (대상 ID:112)
-14:05:43.438     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" 파일에 있는 "PrepareForRun: (대상 ID:113)" 대상("_BuildLinkAction" 대상이 종속됨):
-14:05:43.438     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "PrepareForRun" 대상을 빌드했습니다.: (대상 ID:113)
+15:29:52.038     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "CopyFilesToOutputDirectory" 대상을 빌드했습니다.: (대상 ID:112)
+15:29:52.038     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" 파일에 있는 "PrepareForRun: (대상 ID:113)" 대상("_BuildLinkAction" 대상이 종속됨):
+15:29:52.038     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "PrepareForRun" 대상을 빌드했습니다.: (대상 ID:113)
                    조건이 잘못되어 "CustomBuildStep" 대상을 건너뜁니다. ('@(CustomBuildStep)' != '' and '$(SelectedFiles)'=='')이(가) ('' != '' and ''=='')(으)로 확인되었습니다.
-14:05:43.438     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets" 파일에 있는 "PostBuildEvent: (대상 ID:114)" 대상("_BuildLinkAction" 대상이 종속됨):
+15:29:52.038     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets" 파일에 있는 "PostBuildEvent: (대상 ID:114)" 대상("_BuildLinkAction" 대상이 종속됨):
                    조건이 잘못되어 "Message" 작업을 건너뜁니다. ('%(PostBuildEvent.Message)' != '' and '%(PostBuildEvent.Command)' != '')이(가) ('' != '' and '' != '')(으)로 확인되었습니다.
                    조건이 잘못되어 "Exec" 작업을 건너뜁니다. ('%(PostBuildEvent.Command)' != '')이(가) ('' != '')(으)로 확인되었습니다.
-14:05:43.438     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "PostBuildEvent" 대상을 빌드했습니다.: (대상 ID:114)
-14:05:43.438     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" 파일에 있는 "_BuildLinkAction: (대상 ID:115)" 대상("BuildLink" 대상이 종속됨):
-14:05:43.438     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "_BuildLinkAction" 대상을 빌드했습니다.: (대상 ID:115)
-14:05:43.438     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" 파일에 있는 "BuildLink: (대상 ID:116)" 대상("Build" 대상이 종속됨):
-14:05:43.438     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "BuildLink" 대상을 빌드했습니다.: (대상 ID:116)
-14:05:43.438     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.BuildSteps.Targets" 파일에 있는 "AfterBuild: (대상 ID:117)" 대상("Build" 대상이 종속됨):
-14:05:43.438     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "AfterBuild" 대상을 빌드했습니다.: (대상 ID:117)
+15:29:52.038     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "PostBuildEvent" 대상을 빌드했습니다.: (대상 ID:114)
+15:29:52.038     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" 파일에 있는 "_BuildLinkAction: (대상 ID:115)" 대상("BuildLink" 대상이 종속됨):
+15:29:52.038     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "_BuildLinkAction" 대상을 빌드했습니다.: (대상 ID:115)
+15:29:52.038     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" 파일에 있는 "BuildLink: (대상 ID:116)" 대상("Build" 대상이 종속됨):
+15:29:52.038     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "BuildLink" 대상을 빌드했습니다.: (대상 ID:116)
+15:29:52.038     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.BuildSteps.Targets" 파일에 있는 "AfterBuild: (대상 ID:117)" 대상("Build" 대상이 종속됨):
+15:29:52.038     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "AfterBuild" 대상을 빌드했습니다.: (대상 ID:117)
                    "_CheckForCompileOutputs" 대상을 건너뜁니다. 이전에 빌드되었습니다.
                    조건이 잘못되어 "_SGenCheckForOutputs" 대상을 건너뜁니다. ('$(_SGenGenerateSerializationAssembliesConfig)' == 'On' or ('@(WebReferenceUrl)'!='' and '$(_SGenGenerateSerializationAssembliesConfig)' == 'Auto'))이(가) ('Off' == 'On' or (''!='' and 'Off' == 'Auto'))(으)로 확인되었습니다.
-14:05:43.438     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" 파일에 있는 "_CleanGetCurrentAndPriorFileWrites: (대상 ID:118)" 대상("IncrementalClean" 대상이 종속됨):
+15:29:52.038     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" 파일에 있는 "_CleanGetCurrentAndPriorFileWrites: (대상 ID:118)" 대상("IncrementalClean" 대상이 종속됨):
                    "ReadLinesFromFile" 작업(작업 ID:49)
                      작업 매개 변수:File=x64\Debug\DoubleBuffer_pattern.vcxproj.FileListAbsolute.txt(작업 ID:49)
                    "ReadLinesFromFile" 작업을 실행했습니다.(작업 ID:49)
@@ -4223,8 +4270,8 @@
                    "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" 어셈블리에서 "RemoveDuplicates" 작업을 사용합니다.
                    "RemoveDuplicates" 작업(작업 ID:54)
                    "RemoveDuplicates" 작업을 실행했습니다.(작업 ID:54)
-14:05:43.441     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "_CleanGetCurrentAndPriorFileWrites" 대상을 빌드했습니다.: (대상 ID:118)
-14:05:43.441     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" 파일에 있는 "IncrementalClean: (대상 ID:119)" 대상("Build" 대상이 종속됨):
+15:29:52.039     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "_CleanGetCurrentAndPriorFileWrites" 대상을 빌드했습니다.: (대상 ID:118)
+15:29:52.039     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" 파일에 있는 "IncrementalClean: (대상 ID:119)" 대상("Build" 대상이 종속됨):
                    "FindUnderPath" 작업(작업 ID:55)
                      작업 매개 변수:Path=C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\x64\Debug\(작업 ID:55)
                      비교 경로는 "C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\x64\Debug\"입니다.(작업 ID:55)
@@ -4240,8 +4287,8 @@
                    "RemoveDuplicates" 작업(작업 ID:58)
                    "RemoveDuplicates" 작업을 실행했습니다.(작업 ID:58)
                    조건이 잘못되어 "WriteLinesToFile" 작업을 건너뜁니다. ('@(_CleanUnfilteredPriorFileWrites)'!='@(_CleanUniqueRemainingFileWritesAfterIncrementalClean)')이(가) (''!='')(으)로 확인되었습니다.
-14:05:43.442     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "IncrementalClean" 대상을 빌드했습니다.: (대상 ID:119)
-14:05:43.442     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" 파일에 있는 "FinalizeBuildStatus: (대상 ID:120)" 대상("Build" 대상이 종속됨):
+15:29:52.040     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "IncrementalClean" 대상을 빌드했습니다.: (대상 ID:119)
+15:29:52.040     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" 파일에 있는 "FinalizeBuildStatus: (대상 ID:120)" 대상("Build" 대상이 종속됨):
                    "Delete" 작업(작업 ID:59)
                      작업 매개 변수:Files=x64\Debug\08.Doubl.4d3e9a93.tlog\unsuccessfulbuild(작업 ID:59)
                      "x64\Debug\08.Doubl.4d3e9a93.tlog\unsuccessfulbuild" 파일을 삭제하고 있습니다.(작업 ID:59)
@@ -4250,31 +4297,36 @@
                      작업 매개 변수:Files=x64\Debug\08.Doubl.4d3e9a93.tlog\08.DoubleBuffer_pattern.lastbuildstate(작업 ID:60)
                      "x64\Debug\08.Doubl.4d3e9a93.tlog\08.DoubleBuffer_pattern.lastbuildstate"에 연결(touching)하고 있습니다.(작업 ID:60)
                    "Touch" 작업을 실행했습니다.(작업 ID:60)
-14:05:43.444     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "FinalizeBuildStatus" 대상을 빌드했습니다.: (대상 ID:120)
+15:29:52.041     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "FinalizeBuildStatus" 대상을 빌드했습니다.: (대상 ID:120)
                    "_CheckForInvalidConfigurationAndPlatform" 대상을 건너뜁니다. 이전에 빌드되었습니다.
                    "_CheckForInvalidConfigurationAndPlatform" 대상을 건너뜁니다. 이전에 빌드되었습니다.
-14:05:43.444     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.BuildSteps.Targets" 파일에 있는 "Build: (대상 ID:121)" 대상(진입점):
-14:05:43.444     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "Build" 대상을 빌드했습니다.: (대상 ID:121)
-14:05:43.444     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
+15:29:52.041     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.BuildSteps.Targets" 파일에 있는 "Build: (대상 ID:121)" 대상(진입점):
+15:29:52.041     1>"DoubleBuffer_pattern.vcxproj" 프로젝트에 "Build" 대상을 빌드했습니다.: (대상 ID:121)
+15:29:52.041     1>"C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
 
 프로젝트 평가 성능 요약:
-      147ms  C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj   1회 호출
+       41ms  C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj   1회 호출
 
 프로젝트 성능 요약:
-     1835ms  C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj   1회 호출
-               1835ms  Build                                      1회 호출
+     1147ms  C:\Users\gusdn6763\source\repos\GameProgramming_Pattern\DoubleBuffer_pattern\DoubleBuffer_pattern.vcxproj   1회 호출
+               1147ms  Build                                      1회 호출
 
 대상 성능 요약:
         0ms  AfterBuildCompileEvent                     1회 호출
+        0ms  _Manifest                                  1회 호출
         0ms  _ALink                                     1회 호출
         0ms  _Link                                      1회 호출
         0ms  AfterLink                                  1회 호출
-        0ms  ComputeLinkSwitches                        1회 호출
+        0ms  ComputeLinkImportLibraryOutputsForClean    1회 호출
         0ms  PreLinkEvent                               1회 호출
+        0ms  DoLinkOutputFilesMatch                     1회 호출
         0ms  PrepareResourceNames                       1회 호출
         0ms  CreateCustomManifestResourceNames          1회 호출
+        0ms  SplitResourcesByCulture                    1회 호출
+        0ms  AssignTargetPaths                          1회 호출
         0ms  ComputeLinkInputsFromProject               1회 호출
         0ms  ComputeCLGeneratedLinkInputs               1회 호출
+        0ms  ComputeCLOutputs                           1회 호출
         0ms  ComputeManifestGeneratedLinkerInputs       1회 호출
         0ms  ComputeRCGeneratedLinkInputs               1회 호출
         0ms  ComputeRCOutputs                           1회 호출
@@ -4284,131 +4336,126 @@
         0ms  BuildCompile                               1회 호출
         0ms  _BuildCompileAction                        1회 호출
         0ms  _ResourceCompile                           1회 호출
-        0ms  AfterResourceCompile                       1회 호출
-        0ms  BeforeResourceCompile                      1회 호출
-        0ms  _ClCompile                                 1회 호출
-        0ms  _Manifest                                  1회 호출
-        0ms  AfterClCompile                             1회 호출
         0ms  RegisterOutput                             1회 호출
+        0ms  ResolvedXDCMake                            1회 호출
         0ms  ComputeCLCompileGeneratedXDCFiles          1회 호출
+        0ms  MakeDirsForXdcMake                         1회 호출
         0ms  AfterBuild                                 1회 호출
         0ms  BuildLink                                  1회 호출
         0ms  _BuildLinkAction                           1회 호출
         0ms  PostBuildEvent                             1회 호출
         0ms  PrepareForRun                              1회 호출
+        0ms  CopyFilesToOutputDirectory                 1회 호출
         0ms  _CheckForCompileOutputs                    1회 호출
         0ms  _CopySourceItemsToOutputDirectory          1회 호출
         0ms  _GetCopyToOutputDirectoryItemsFromThisProject   1회 호출
         0ms  _GetCopyToOutputDirectoryItemsFromTransitiveProjectReferences   1회 호출
         0ms  GetCopyToOutputDirectoryXamlAppDefs        1회 호출
+        0ms  AfterResourceCompile                       1회 호출
         0ms  _PopulateCommonStateForGetCopyToOutputDirectoryItems   1회 호출
-        0ms  _Deploy                                    1회 호출
         0ms  _Appverifier                               1회 호출
         0ms  CreateSatelliteAssemblies                  1회 호출
         0ms  _GenerateSatelliteAssemblyInputs           1회 호출
-        0ms  ContentFilesProjectOutputGroup             1회 호출
+        0ms  CreateRecipeFile                           1회 호출
+        0ms  MakeDirsForFxc                             1회 호출
+        0ms  SatelliteDllsProjectOutputGroup            1회 호출
         0ms  BuiltProjectOutputGroup                    1회 호출
         0ms  _BscMake                                   1회 호출
         0ms  MakeDirsForBscMake                         1회 호출
         0ms  ComputeCLCompileGeneratedSbrFiles          1회 호출
         0ms  _XdcMake                                   1회 호출
-        0ms  ResolvedXDCMake                            1회 호출
-        0ms  SelectClCompile                            1회 호출
+        0ms  _Deploy                                    1회 호출
+        0ms  BeforeResourceCompile                      1회 호출
         0ms  Build                                      1회 호출
-        0ms  BeforeBuildGenerateSources                 1회 호출
+        0ms  AfterClCompile                             1회 호출
         0ms  ComputeCustomBuildOutput                   1회 호출
+        0ms  SelectCustomBuild                          1회 호출
         0ms  _SelectedFiles                             1회 호출
-        0ms  PreBuildEvent                              1회 호출
+        0ms  _ClCompile                                 1회 호출
+        0ms  BeforeBuildGenerateSources                 1회 호출
         0ms  BuildGenerateSourcesTraverse               1회 호출
-        0ms  BeforeResolveReferences                    1회 호출
         0ms  ResolveReferences                          1회 호출
         0ms  AfterResolveReferences                     1회 호출
-        0ms  _Xsd                                       1회 호출
         0ms  ResolveAssemblyReferences                  1회 호출
+        0ms  ExpandSDKReferences                        1회 호출
         0ms  ResolveSDKReferences                       1회 호출
         0ms  SetCABuildNativeEnvironmentVariables       1회 호출
         0ms  GetResolvedWinMD                           1회 호출
         0ms  SetBuildDefaultEnvironmentVariables        1회 호출
         0ms  GetReferenceAssemblyPaths                  1회 호출
-        0ms  _SplitProjectReferencesByFileExistence     1회 호출
+        0ms  GetFrameworkPaths                          1회 호출
+        0ms  ResolveProjectReferences                   1회 호출
         0ms  PrepareProjectReferences                   1회 호출
-        0ms  ExpandSDKReferences                        1회 호출
-        0ms  MakeDirsForMidl                            1회 호출
-        0ms  SelectCustomBuild                          1회 호출
-        0ms  ComputeMIDLGeneratedCompileInputs          1회 호출
+        0ms  _AddOutputPathToGlobalPropertiesToRemove   1회 호출
+        0ms  _SplitProjectReferencesByFileExistence     1회 호출
+        0ms  BeforeResolveReferences                    1회 호출
+        0ms  _PrepareForReferenceResolution             1회 호출
+        0ms  _PrepareForBuild                           1회 호출
+        0ms  CopyFileToFolders                          1회 호출
+        0ms  _Xsd                                       1회 호출
+        0ms  PreBuildEvent                              1회 호출
+        0ms  ComputeCLInputPDBName                      1회 호출
+        0ms  MakeDirsForCl                              1회 호출
         0ms  ComputeReferenceCLInput                    1회 호출
         0ms  GetReferencedVCProjectsInfo                1회 호출
         0ms  FindReferenceAssembliesForReferences       1회 호출
-        0ms  ComputeCLInputPDBName                      1회 호출
+        0ms  SelectClCompile                            1회 호출
         0ms  BeforeClCompile                            1회 호출
         0ms  BuildCompileTraverse                       1회 호출
-        0ms  BuildGenerateSources                       1회 호출
+        0ms  WarnCompileDuplicatedFilename              1회 호출
         0ms  _BuildGenerateSourcesAction                1회 호출
+        0ms  BuildGenerateSources                       1회 호출
         0ms  AfterBuildGenerateSourcesEvent             1회 호출
         0ms  AfterBuildGenerateSources                  1회 호출
         0ms  _Midl                                      1회 호출
-        0ms  _AddOutputPathToGlobalPropertiesToRemove   1회 호출
         0ms  AfterMidl                                  1회 호출
+        0ms  ComputeMIDLGeneratedCompileInputs          1회 호출
+        0ms  MakeDirsForMidl                            1회 호출
+        1ms  MakeDirsForResourceCompile                 1회 호출
+        1ms  AssignProjectConfiguration                 1회 호출
+        1ms  _CleanGetCurrentAndPriorFileWrites         1회 호출
+        1ms  ComputeManifestInputsTargets               1회 호출
         1ms  MakeDirsForLink                            1회 호출
-        1ms  CopyFilesToOutputDirectory                 1회 호출
-        1ms  GetFrameworkPaths                          1회 호출
+        1ms  FinalizeBuildStatus                        1회 호출
+        1ms  IncrementalClean                           1회 호출
+        1ms  ContentFilesProjectOutputGroup             1회 호출
         1ms  _GetProjectReferenceTargetFrameworkProperties   1회 호출
-        1ms  CopyFileToFolders                          1회 호출
-        1ms  FixupCLCompileOptions                      1회 호출
-        1ms  MakeDirsForFxc                             1회 호출
-        1ms  ComputeLinkImportLibraryOutputsForClean    1회 호출
-        1ms  SplitResourcesByCulture                    1회 호출
+        1ms  ComputeLinkSwitches                        1회 호출
         1ms  _CheckWindowsSDKInstalled                  1회 호출
         1ms  AddExternalIncludDirectoriesToPaths        1회 호출
-        1ms  ComputeCLOutputs                           1회 호출
-        1ms  IncrementalClean                           1회 호출
-        1ms  _PrepareForBuild                           1회 호출
-        1ms  DoLinkOutputFilesMatch                     1회 호출
-        1ms  _PrepareForReferenceResolution             1회 호출
-        1ms  MakeDirsForResourceCompile                 1회 호출
-        1ms  MakeDirsForXdcMake                         1회 호출
+        1ms  SetTelemetryEnvironmentVariables           1회 호출
+        1ms  CustomBuild                                1회 호출
+        1ms  FixupCLCompileOptions                      1회 호출
         1ms  GetCopyToOutputDirectoryItems              1회 호출
-        2ms  SatelliteDllsProjectOutputGroup            1회 호출
-        2ms  AssignProjectConfiguration                 1회 호출
-        2ms  FinalizeBuildStatus                        1회 호출
-        3ms  _CleanGetCurrentAndPriorFileWrites         1회 호출
-        3ms  WarnCompileDuplicatedFilename              1회 호출
-        3ms  AssignTargetPaths                          1회 호출
-        4ms  MakeDirsForCl                              1회 호출
-        5ms  CustomBuild                                1회 호출
+        1ms  _CheckForInvalidConfigurationAndPlatform   1회 호출
+        4ms  PrepareForBuild                            1회 호출
         6ms  InitializeBuildStatus                      1회 호출
-        7ms  SetTelemetryEnvironmentVariables           1회 호출
-       13ms  ResolveProjectReferences                   1회 호출
-       16ms  ComputeManifestInputsTargets               1회 호출
-       16ms  CreateRecipeFile                           1회 호출
-       18ms  _CheckForInvalidConfigurationAndPlatform   1회 호출
-       29ms  PrepareForBuild                            1회 호출
-      594ms  Link                                       1회 호출
-     1087ms  ClCompile                                  1회 호출
+      168ms  Link                                       1회 호출
+      947ms  ClCompile                                  1회 호출
 
 작업 성능 요약:
-        0ms  MSBuild                                    1회 호출
+        0ms  Message                                    3회 호출
+        0ms  FindUnderPath                              5회 호출
+        0ms  ConvertToAbsolutePath                      1회 호출
+        0ms  GenerateDesktopDeployRecipe                1회 호출
+        0ms  CreateItem                                 2회 호출
+        0ms  AssignCulture                              1회 호출
+        0ms  AssignTargetPath                           7회 호출
         0ms  RemoveDuplicates                           2회 호출
-        1ms  CheckVCToolsetVersion                      1회 호출
-        1ms  AssignCulture                              1회 호출
-        1ms  AssignTargetPath                           7회 호출
-        1ms  Delete                                     2회 호출
-        1ms  ConvertToAbsolutePath                      1회 호출
-        1ms  CallTarget                                 2회 호출
+        0ms  Delete                                     2회 호출
+        0ms  MSBuild                                    1회 호출
+        1ms  MakeDir                                   10회 호출
+        1ms  AssignProjectConfiguration                 1회 호출
         1ms  ReadLinesFromFile                          2회 호출
-        2ms  WriteLinesToFile                           1회 호출
-        2ms  Message                                    3회 호출
-        2ms  SetEnv                                     9회 호출
-        2ms  CreateItem                                 2회 호출
-        2ms  AssignProjectConfiguration                 1회 호출
-        3ms  FindUnderPath                              5회 호출
-        4ms  Touch                                      2회 호출
-        6ms  GetOutOfDateItems                          3회 호출
-        9ms  VCMessage                                  1회 호출
-       10ms  MakeDir                                   10회 호출
-       16ms  GenerateDesktopDeployRecipe                1회 호출
-      594ms  Link                                       1회 호출
-     1086ms  CL                                         1회 호출
+        1ms  VCMessage                                  1회 호출
+        1ms  CheckVCToolsetVersion                      1회 호출
+        1ms  WriteLinesToFile                           1회 호출
+        1ms  SetEnv                                     9회 호출
+        1ms  GetOutOfDateItems                          3회 호출
+        1ms  CallTarget                                 2회 호출
+        3ms  Touch                                      2회 호출
+      167ms  Link                                       1회 호출
+      946ms  CL                                         1회 호출
 
 빌드했습니다.
 
@@ -4419,4 +4466,4 @@
     경고 1개
     오류 0개
 
-경과 시간: 00:00:01.82
+경과 시간: 00:00:01.14
