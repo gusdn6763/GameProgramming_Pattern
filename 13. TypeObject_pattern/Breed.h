@@ -1,16 +1,21 @@
 #pragma once
+
+#include <string>
+
+using namespace std;
+
+class Monster;
+
 class Breed
 {
 public:
-	Breed(int health, const char* attack) : nHealth(health), cAttack(attack) 
-	{
+    Breed(int health, const wstring& attack) : nHealth(health), cAttack(attack) {}
 
-	}
-	int GetHealth() {return nHealth;};
-	const char* GetAttack() { return cAttack; };
+    int GetHealth() const { return nHealth; };
+    Monster* NewMonster();
+    wstring& GetAttack() { return cAttack; };
 
 private:
-	int nHealth;
-	const char* cAttack;
+    int nHealth;
+    wstring cAttack;
 };
-
